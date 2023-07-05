@@ -33,7 +33,7 @@
         <link rel="stylesheet" href="css/responsive.css">
 
 		<!-- bootstrap-->
-		<!-- <link rel="stylesheet" href="/css/bootstrap.min.css">    -->
+		<!-- <link rel="stylesheet" href="css/bootstrap.min.css">    -->
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -120,17 +120,23 @@
                             <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                                 <div class="col">
                                     <div class="cards mb-5">
-                                        <!-- Vivencias -->
+
+                                        <!-- VIVENCIAS -->
+
+                                        <!-- Subida Bau -->
                                         <div class="card">
-                                            <div class="bg-success text-white text-center">Vivências
+                                            <div class="bg-success text-white text-center">
+                                                Vivências
                                             </div>
                                             <div class="card__image-holder">
                                                 <img class="card__image" src="img/nativus/casal-bau.jpg" alt="Bau" />
                                             </div>
                                             <div class="card-title">
-                                            <h5>
+                                            <h6 class="text-center p-0 mt-2"><strong>
                                                 Subida a pedra do Bau
-                                            </h5>
+                                            </strong>
+                                            </h6>
+                                            <hr>
                                             <h6>
                                                 <i class="mt-3 fas fa-calendar-alt me-2"></i>Todos os meses
                                             </h6>
@@ -140,26 +146,38 @@
                                             <h6>
                                                 <i class="bi bi-hourglass-split me-2"></i>Duracao: 4 a 5 horas
                                             </h6>
+                                            <hr>
+
                                             </div>
-                                            <a href="#" class="btn-slider btn-lg btn-circle btn-outline-new-white">
-                                                Mais Detalhes
-                                            </a>
-                                            <div class="card-flap flap1">
-                                            <div class="card-description">
-                                                Tudo se inicia em uma trilha que leva até a base da Pedra do Baú, desde a base se inicia-se o trecho da via ferrata(escadinhas), um trecho com mais de 500 degraus de ferro fixados na rocha.
-                                                Essa subida leva ao cume da pedra do bau, onde se encontra uma das mais belas vistas da Serra da Mantiqueira. 
-                                                Nessa parte, e obrigatorio que o visitante utilize equipamentos de segurança, mas nao se preocupe, nesse servico a Nativus vai te fornecer todos os equipamentos necessarios, alem de um guia altamente capacitado para te acompanhar durante toda sua aventura.
+                                            <div class="row align-items-center w-100 mx-0">
+                                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                                                    Ver mais informacoes
+                                                </button>
                                             </div>
-                                            <div class="contanier align-items-center">
-                                                <a href="#" class="toggle-info btn-exp">
-                                                    <span class="left"></span>
-                                                    <span class="right"></span>
-                                                    Entre em contato e agende
-                                                </a>
+                                        </div>
+                                        <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="myModalLabel">Subida a pedra do Bau</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="img/nativus/vivencia-bau.jpg" class="d-block w-100" alt="Imagem 1">
+                                                    <p>
+                                                        Tudo se inicia em uma trilha que leva até a base da Pedra do Baú, desde a base se inicia-se o trecho da via ferrata(escadinhas), um trecho com mais de 500 degraus de ferro fixados na rocha.
+                                                        Essa subida leva ao cume da pedra do bau, onde se encontra uma das mais belas vistas da Serra da Mantiqueira. 
+                                                        Nessa parte, e obrigatorio que o visitante utilize equipamentos de segurança, mas nao se preocupe, nesse servico a Nativus vai te fornecer todos os equipamentos necessarios, alem de um guia altamente capacitado para te acompanhar durante toda sua aventura.
+                                                    </p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                                </div>
                                             </div>
                                             </div>
                                         </div>
-                                        
+
+                                        <!-- Ana Chata -->
                                         <div class="card">
                                             <div class="bg-success text-white text-center">Vivências</div>
                                             <div class="card__image-holder">
@@ -167,9 +185,11 @@
                                             </div>
                                             <div class="card-title">
 
-                                            <h5>
+                                            <h6  class="text-center p-0 mt-2"><strong>
                                                 Subida a pedra Ana Chata
-                                            </h5>
+                                            </strong>
+                                            </h6>
+                                            <hr>
                                             <h6>
                                                 <i class="mt-3 fas fa-calendar-alt me-2"></i>Todos os meses
                                             </h6>
@@ -179,25 +199,39 @@
                                             <h6>
                                                 <i class="bi bi-hourglass-split me-2"></i>Duração: 4 a 5 horas
                                             </h6>
+                                            <hr>
+
                                             </div>
-                                            <a href="#" class="btn-slider btn-lg btn-circle btn-outline-new-white">
-                                                Mais Detalhes
-                                            </a>
-                                            <div class="card-flap flap1">
-                                                <div class="card-description">
+                                            <div class="row align-items-center w-100 mx-0">
+                                                <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#myModal2">
+                                                    Ver mais informacoes
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="modal fade" id="myModal2" tabindex="-1" aria-labelledby="myModalLabel2" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h5 class="modal-title" id="myModalLabel2">Subida a pedra da Ana Chata</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="img/nativus/ana-chata.jpg" class="d-block w-100" alt="Imagem 1">
+                                                <p>
                                                     A Pedra Ana Chata é a menor das três formações rochosas que compõem o Monumento Natural Pedra do Baú. 
                                                     No entanto, seu tamanho reduzido não diminui o seu encanto.
                                                     A experiência tem início em uma trilha deslumbrante composta por passagens por bosques, cavernas e vistas deslumbrantes. 
                                                     A chegada ao topo é uma surpresa, proporcionando uma vista espetacular de 360° de tirar o fôlego.
+                                                </p>
                                                 </div>
-                                                <div class="card-flap flap2">
-                                                <div class="card-actions">
-                                                    <a href="contato" class="btn-exp">Agende sua aventura</a>
-                                                </div>
+                                                <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
                                                 </div>
                                             </div>
-                                        </div>    
+                                            </div>
+                                        </div>
                                         
+                                        <!-- Dia de escalada -->
                                         <div class="card">
                                             <div class="bg-success text-white text-center">Vivências</div>
                                             <div class="card__image-holder">
@@ -205,9 +239,11 @@
                                             </div>
                                             <div class="card-title">
 
-                                                <h5>
+                                                <h6 class="text-center p-0 mt-2"><strong>
                                                 Dia de escalada
-                                                </h5>
+                                                </strong>
+                                                </h6>
+                                            <hr>
                                             <h6>
                                                 <i class="mt-3 fas fa-calendar-alt me-2"></i> Todos os meses
                                             </h6>
@@ -217,35 +253,105 @@
                                             <h6>
                                                 <i class="bi bi-hourglass-split me-2"></i>Duração: 8 horas
                                             </h6>
+                                            <hr>
                                             </div>
-                                            <a href="#" class="btn-slider btn-lg btn-circle btn-outline-new-white">
-                                                Mais Detalhes
-                                            </a>
-                                            <div class="card-flap flap1">
-                                                <div class="card-description">
+                                            <div class="row align-items-center w-100 mx-0">
+                                                <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#myModal3">
+                                                    Ver mais informacoes
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="modal fade" id="myModal3" tabindex="-1" aria-labelledby="myModalLabel3" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h5 class="modal-title" id="myModalLabel3">Dia de Escalada</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="img/nativus/dia-de-escalada.jpg" class="d-block w-100" alt="Imagem 1">
+                                                <p>
                                                 A nativus oferece uma vivência durante todo o dia em contato com a rocha, 
                                                 a vivência é aplicada em um campo escola com vias de escalada de fácil/médio ideal para você que nunca escalou ou para você que já teve contato e quer conhecer ainda mais sobre a escalada, experimentando esse esporte cheio de desafios. 
                                                 A escalada em rocha proporciona um contato unico com a natureza.
                                                 Durante a atividade estaremos passando dicas de movimentações e técnicas na escalada, além de cuidados com o meio ambiente e o lixo e éticas do montanhismo no geral.
+                                                </p>
                                                 </div>
-                                                <div class="card-flap flap2">
-                                                <div class="card-actions">
-                                                    <a href="#" class="btn-exp">Agende sua aventura</a>
-                                                </div>
+                                                <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
                                                 </div>
                                             </div>
+                                            </div>
                                         </div>
-                                        <!-- Trekking -->
+
+                                        <!-- Nascer do Sol na Pedra da Balança -->
                                         <div class="card">
-                                            <div class="bg-success text-white text-center">Trekking</div>
+                                            <div class="bg-success text-white text-center">Vivências</div>
                                             <div class="card__image-holder">
-                                                <img class="card__image" src="img/nativus/vivencia-tres-picos.jpg" alt="Bau"/>
+                                                <img class="card__image" src="img/nativus/isa-pedra-balanca.jpg" alt="Bau" />
                                             </div>
                                             <div class="card-title">
 
-                                                <h5>
-                                                    Trekking das Três Pedras
-                                                </h5>
+                                            <h6 class="text-center p-0 mt-2"><strong>
+                                                Nascer do Sol Pedra da Balança
+                                            </strong></h6>
+                                            <hr>
+                                            <h6>
+                                                <i class="mt-3 fas fa-calendar-alt me-2"></i>Todos os meses
+                                            </h6>
+                                            <h6>
+                                                <i class="bi bi-lungs-fill me-2"></i>Nível: Intermediário
+                                            </h6>
+                                            <h6>
+                                                <i class="bi bi-hourglass-split me-2"></i>Duração: Uma noite
+                                            </h6>
+                                            <hr>
+                                            </div>
+                                            <div class="row align-items-center w-100 mx-0">
+                                                <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#myModal4">
+                                                    Ver mais informacoes
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="modal fade" id="myModal4" tabindex="-1" aria-labelledby="myModalLabel4" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h5 class="modal-title" id="myModalLabel4">Nascer do Sol Pedra da Balança</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="img/nativus/trilha-balanca.jpg" class="d-block w-100" alt="Imagem 1">
+                                                <p>
+                                                    A Pedra da Balança é um destino turístico incrível localizado em uma região montanhosa deslumbrante, oferecendo uma experiência única para os amantes da natureza e da aventura. Situada com vista para a imponente Pedra do Baú, essa rocha imponente é conhecida por suas formações rochosas fascinantes e por proporcionar uma vista deslumbrante do nascer do sol.
+                                                    Uma das principais atrações desse recorrido turístico é o camping disponível nas proximidades da Pedra da Balança. Os aventureiros têm a oportunidade de acampar em meio à natureza exuberante, desfrutando de uma atmosfera tranquila e revigorante. O camping oferece estrutura básica, como banheiros e áreas para fogueira, proporcionando uma experiência autêntica de acampamento.
+                                                    Ao amanhecer, os visitantes têm a oportunidade de testemunhar um espetáculo da natureza: o nascer do sol. Com a Pedra do Baú ao fundo, o sol lentamente emerge no horizonte, pintando o céu com cores vibrantes e criando uma paisagem deslumbrante. É um momento mágico que transmite uma sensação de paz e renovação, tornando-se um momento imperdível para os visitantes.
+                                                    Além disso, a região oferece trilhas desafiadoras para os aventureiros mais experientes, permitindo explorar a natureza envolvente e apreciar vistas panorâmicas deslumbrantes. É possível realizar caminhadas pela região, com opções de diferentes níveis de dificuldade, proporcionando uma experiência personalizada para cada visitante.
+                                                    Para os amantes da fotografia, a Pedra da Balança é um verdadeiro paraíso. Suas formações rochosas únicas e a vista privilegiada oferecem cenários perfeitos para capturar momentos especiais e eternizá-los em belas imagens.
+                                                    Em resumo, o recorrido turístico na Pedra da Balança oferece uma combinação perfeita de natureza, aventura e vistas deslumbrantes. Seja acampando próximo à rocha imponente, testemunhando o nascer do sol com a Pedra do Baú ao fundo ou explorando as trilhas circundantes, essa experiência certamente encantará os visitantes e proporcionará lembranças inesquecíveis.
+                                                </p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- TREKKING -->
+
+                                        <!-- Tres Pedras -->
+                                        <div class="card">
+                                            <div class="bg-success text-white text-center">Trekking</div>
+                                            <div class="card__image-holder">
+                                                <img class="card__image" src="img/nativus/tres-pedras.jpg" alt="Bau" />
+                                            </div>
+                                            <div class="card-title">
+
+                                                <h6 class="text-center p-0 mt-2"><strong>
+                                                    Travessia das Três Pedras
+                                                </strong></h6>
+                                                <hr>
                                                 <h6>
                                                     <i class="mt-3 fas fa-calendar-alt me-2"></i>Todos os meses
                                                 </h6>
@@ -255,35 +361,49 @@
                                                 <h6>
                                                     <i class="bi bi-hourglass-split me-2"></i>Duração: 8 horas
                                                 </h6>
+                                                <hr>
+
                                             </div>
-                                            <a href="#" class="btn-slider btn-lg btn-circle btn-outline-new-white">
-                                                Mais Detalhes
-                                            </a>
-                                            <div class="card-flap flap1">
-                                                <div class="card-description">
+                                            <div class="row align-items-center w-100 mx-0">
+                                                <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#myModal5">
+                                                    Ver mais informacoes
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="modal fade" id="myModal5" tabindex="-1" aria-labelledby="myModalLabel5" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h5 class="modal-title" id="myModalLabel5">Trekking das Três Pedras</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="img/nativus/isa-tres.jpg" class="d-block w-100" alt="Imagem 1">
+                                                <p>
                                                     O trekking que leva aos três cumes é um dos nossos principais atrativos.
                                                     A trilha no complexo do Bau é um desafio completo de nível intermediário.
                                                     Durante a caminhada, podemos apreciar belas paisagens da Mantiqueira.
                                                     O trekking das Três Pedras é o desafio completo, uma trilha circular para acessar o cume do Bauzinho, Pedra do Baú e Ana Chata.
+                                                </p>
                                                 </div>
-                                                <div class="card-flap flap2">
-                                                <div class="card-actions">
-                                                    <a href="contato" class="btn-exp">Agende sua aventura</a>
+                                                <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
                                                 </div>
-                                                </div>
+                                            </div>
                                             </div>
                                         </div>
 
+                                        <!-- Marins x Itaguare -->
                                         <div class="card">
                                             <div class="bg-success text-white text-center">Trekking</div>
                                             <div class="card__image-holder">
-                                                <img class="card__image" src="img/nativus/marins-isa-red.jpg" alt="Bau" />
+                                                <img class="card__image" src="img/nativus/marins-ita-2.jpg" alt="Bau" />
                                             </div>
                                             <div class="card-title">
-
-                                                <h5>
+                                                <h6 class="text-center p-0 mt-2"><strong>
                                                     Travessia Marins x Itaguare
-                                                </h5>
+                                                </strong></h6>
+                                                <hr>
                                                 <h6>
                                                     <i class="mt-3 fas fa-calendar-alt me-2"></i> Maio a Setembro
                                                 </h6>
@@ -293,36 +413,48 @@
                                                 <h6>
                                                     <i class="bi bi-hourglass-split me-2"></i>Duração: 3 dias e 2 noites
                                                 </h6>
+                                                <hr>
+
                                             </div>
-                                            <a href="#" class="btn-slider btn-lg btn-circle btn-outline-new-white">
-                                                Mais Detalhes
-                                            </a>
-                                            <div class="card-flap flap1">
-                                                <div class="card-description">
+                                            <div class="row align-items-center w-100 mx-0">
+                                                <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#myModal6">
+                                                    Ver mais informacoes
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="modal fade" id="myModal6" tabindex="-1" aria-labelledby="myModalLabel6" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h5 class="modal-title" id="myModalLabel5">Trekking das Três Pedras</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="img/nativus/marins-ita-grupo.jpg" class="d-block w-100" alt="Imagem 1">
+                                                <p>
                                                     A travessia Marins × Itaguaré é considerada uma das mais clássicas e desafiadoras expedições de trekking do montanhismo brasileiro. 
                                                     Composta por dois picos imponentes, o Pico Marins e o Pico do Itaguaré, essa jornada requer aproximadamente 3 dias para ser completada. 
                                                     Durante esse tempo, os aventureiros irão enfrentar trechos técnicos de escalaminhadas e percorrer longas caminhadas, explorando as paisagens deslumbrantes da região. 
                                                     É uma experiência intensa e gratificante, ideal para aqueles que desejam testar suas habilidades de montanhismo e se conectar com a natureza de forma única. 
-                                                    Prepare-se para desafios emocionantes e momentos de pura superação nessa aventura memorável.
                                                 </div>
-                                                <div class="card-flap flap2">
-                                                <div class="card-actions">
-                                                    <a href="#" class="btn-exp">Agende sua aventura</a>
-                                                </div>
+                                                <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
                                                 </div>
                                             </div>
-                                        </div> 
+                                            </div>
+                                        </div>
 
+                                        <!-- Itatiaia -->
                                         <div class="card">
                                             <div class="bg-success text-white text-center">Trekking</div>
                                             <div class="card__image-holder">
-                                                <img class="card__image" src="img/nativus/itatiaia-red.jpg" alt="Bau" />
+                                                <img class="card__image" src="img/nativus/itatiaia-grupo.jpg" alt="itatiaia" />
                                             </div>
                                             <div class="card-title">
-
-                                                <h5>
+                                                <h6 class="text-center p-0 mt-2"><strong>
                                                     Parque nacional do Itatiaia
-                                                </h5>
+                                                </strong></h6>
+                                                <hr>
                                                 <h6>
                                                     <i class="mt-3 fas fa-calendar-alt me-2"></i>Maio a Setembro
                                                 </h6>
@@ -332,12 +464,25 @@
                                                 <h6>
                                                     <i class="bi bi-hourglass-split me-2"></i>Duração: Consulte Roteiros
                                                 </h6>
+                                                <hr>
+
                                             </div>
-                                            <a href="#" class="btn-slider btn-lg btn-circle btn-outline-new-white">
-                                                Mais Detalhes
-                                            </a>
-                                            <div class="card-flap flap1">
-                                                <div class="card-description">
+                                            <div class="row align-items-center w-100 mx-0">
+                                                <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#myModal7">
+                                                    Ver mais informacoes
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="modal fade" id="myModal7" tabindex="-1" aria-labelledby="myModalLabel7" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h5 class="modal-title" id="myModalLabel5">Parque Nacional do Itatiaia</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="img/nativus/iron-itatiaia.jpg" class="d-block w-100" alt="Imagem 1">
+                                                <p>
                                                     O Parque Nacional do Itatiaia, localizado no estado do Rio de Janeiro, é o primeiro Parque Nacional do Brasil, estabelecido em junho de 1937. Situado na deslumbrante Serra da Mantiqueira, o parque abriga uma biodiversidade exuberante e um ecossistema incrivelmente rico, proporcionando uma beleza natural única. Com suas montanhas majestosas, cachoeiras deslumbrantes e trilhas desafiadoras, o Itatiaia é um verdadeiro paraíso para os amantes da natureza e entusiastas de atividades ao ar livre. Explore suas trilhas pitorescas, maravilhe-se com a diversidade de flora e fauna, e deixe-se envolver pela atmosfera mágica deste lugar especial. Uma visita ao Parque Nacional do Itatiaia é uma oportunidade imperdível de conectar-se com a natureza e apreciar toda a sua grandiosidade.                                                Recorridos: 
                                                     <p><i class="fa fa-check text-success me-3"></i>Pico Agulhas negras</p>
                                                     <p><i class="fa fa-check text-success me-3"></i>Pedra do Altar</p>
@@ -347,26 +492,24 @@
                                                     <p><i class="fa fa-check text-success me-3"></i>Travessia Ruy Braga</p>
                                                     Seja qual for o seu nível de experiência ou preferência, o Parque Nacional do Itatiaia oferece roteiros de aventura para todos os gostos, garantindo momentos inesquecíveis em meio à natureza exuberante da região. Prepare-se para explorar as maravilhas desse lugar e vivenciar emoções intensas em cada passo da sua jornada.
                                                 </div>
-                                                <div class="card-flap flap2">
-                                                <div class="card-actions">
-                                                    <a href="#" class="btn-exp">Agende sua aventura</a>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
                                                 </div>
-                                                </div>
+                                            </div>
                                             </div>
                                         </div>
-                                    
+
+                                        <!-- Serra dos orgaos -->
                                         <div class="card">
-                                            <div class="bg-success text-white text-center">
-                                                Trekking
-                                            </div>
+                                            <div class="bg-success text-white text-center">Trekking</div>
                                             <div class="card__image-holder">
-                                                <img class="card__image" src="img/nativus/travessia-1-red.jpg" alt="Bau" />
+                                                <img class="card__image" src="img/nativus/petro-tete.jpg" alt="itatiaia" />
                                             </div>
                                             <div class="card-title">
-
-                                                <h5>
+                                                <h6 class="text-center p-0 mt-2"><strong>
                                                     Serra dos Órgãos (RJ)
-                                                </h5>
+                                                </strong></h6>
+                                                <hr>
                                                 <h6>
                                                     <i class="mt-3 fas fa-calendar-alt me-2"></i>Maio a Setembro
                                                 </h6>
@@ -376,38 +519,50 @@
                                                 <h6>
                                                     <i class="bi bi-hourglass-split me-2"></i>Duração: Consulte Roteiros
                                                 </h6>
+                                                <hr>
+
                                             </div>
-                                            <a href="#" class="btn-slider btn-lg btn-circle btn-outline-new-white">
-                                                Mais Detalhes
-                                            </a>
-                                            <div class="card-flap flap1">
-                                                <div class="card-description">
+                                            <div class="row align-items-center w-100 mx-0">
+                                                <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#myModal8">
+                                                    Ver mais informacoes
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="modal fade" id="myModal8" tabindex="-1" aria-labelledby="myModalLabel8" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h5 class="modal-title" id="myModalLabel8">Serra dos Órgãos (RJ)</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="img/nativus/petro-tere.jpg" class="d-block w-100" alt="Imagem 1">
+                                                <p>
                                                     O Parque Nacional da Serra dos Órgãos, localizado no estado do Rio de Janeiro, é uma verdadeira joia natural. Criado em novembro de 1939, o parque possui uma paisagem deslumbrante e uma rica biodiversidade. Com suas imponentes montanhas, formações rochosas únicas e uma vegetação exuberante, a Serra dos Órgãos oferece uma experiência inigualável para os amantes da natureza e entusiastas de atividades ao ar livre. Suas trilhas bem demarcadas levam os visitantes a cenários de tirar o fôlego, como o icônico Dedo de Deus e o mirante da Pedra do Sino, de onde se tem vistas panorâmicas deslumbrantes. Além disso, o parque abriga uma diversidade de fauna e flora, proporcionando um verdadeiro santuário para inúmeras espécies. Com uma infraestrutura bem desenvolvida, o Parque Nacional da Serra dos Órgãos oferece aos visitantes uma experiência completa, com opções de trilhas para diferentes níveis de habilidade, áreas de camping, e uma oportunidade única de se conectar com a natureza em seu estado mais puro. Explore os tesouros naturais da Serra dos Órgãos e deixe-se encantar pela magnificência desse lugar extraordinário.
                                                     <p><i class="fa fa-check text-success me-3"></i>Travessia Petrópolis x Teresópolis</p>
                                                     <p><i class="fa fa-check text-success me-3"></i>Cachoeira Véu de Noiva</p>
                                                     <p><i class="fa fa-check text-success me-3"></i>Circuitos de Escalada</p>
                                                     Seja qual for o seu nível de experiência ou preferência, o Parque Nacional da Serra dos Órgãos oferece roteiros de aventura para todos os gostos, garantindo momentos inesquecíveis em meio à natureza exuberante da região. Prepare-se para explorar as maravilhas desse lugar e vivenciar emoções intensas em cada passo da sua jornada.
                                                 </div>
-                                                <div class="card-flap flap2">
-                                                <div class="card-actions">
-                                                    <a href="#" class="btn-exp">Agende sua aventura</a>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
                                                 </div>
-                                                </div>
+                                            </div>
                                             </div>
                                         </div>
 
+                                        <!--Travessia Serra Fina -->
                                         <div class="card">
-                                            <div class="bg-success text-white text-center">
-                                                Trekking
-                                            </div>
+                                            <div class="bg-success text-white text-center">Trekking</div>
                                             <div class="card__image-holder">
-                                                <img class="card__image" src="img/nativus/travessia-da-serra-fina.jpg" alt="Bau" />
+                                                <img class="card__image" src="img/nativus/travessia-da-serra-fina.jpg" alt="serra fina" />
                                             </div>
                                             <div class="card-title">
-
-                                                <h5>
+                                                <h6 class="text-center p-0 mt-2"><strong>
                                                     Travessia da Serra Fina (MG)
-                                                </h5>
+                                                </strong></h6>
+
+                                                <hr>
                                                 <h6>
                                                     <i class="mt-3 fas fa-calendar-alt me-2"></i>Maio a Setembro
                                                 </h6>
@@ -417,12 +572,25 @@
                                                 <h6>
                                                     <i class="bi bi-hourglass-split me-2"></i>Duração: 3 a 4 dias
                                                 </h6>
+                                                <hr>
+
                                             </div>
-                                            <a href="#" class="btn-slider btn-lg btn-circle btn-outline-new-white">
-                                                Mais Detalhes
-                                            </a>
-                                            <div class="card-flap flap1">
-                                                <div class="card-description">
+                                            <div class="row align-items-center w-100 mx-0">
+                                                <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#myModal10">
+                                                    Ver mais informacoes
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="modal fade" id="myModal10" tabindex="-1" aria-labelledby="myModalLabel10" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h5 class="modal-title" id="myModalLabel10">Travessia da Serra Fina</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="img/nativus/travessia-da-serra-fina.jpg" class="d-block w-100" alt="Imagem 1">
+                                                <p>
                                                     A travessia da Serra Fina é considerada um dos desafios mais emblemáticos do montanhismo brasileiro. 
                                                     Localizada na divisa entre os estados de Minas Gerais e São Paulo, essa travessia oferece uma experiência única e deslumbrante aos aventureiros que se aventuram em suas trilhas.
                                                     Com uma extensão de aproximadamente 30 quilômetros, a travessia da Serra Fina percorre uma região de altitudes elevadas, com picos que ultrapassam os 2.400 metros. Durante o percurso, os exploradores são presenteados com paisagens de tirar o fôlego, como vales profundos, montanhas imponentes e uma natureza exuberante.
@@ -430,29 +598,28 @@
                                                     Ela exige um bom condicionamento físico, habilidades em navegação e conhecimento técnico em montanhismo. 
                                                     As trilhas são íngremes, estreitas e apresentam trechos expostos, exigindo cuidado e atenção dos aventureiros.
                                                     Durante a jornada, os participantes têm a oportunidade de conquistar os três principais picos da região: o Pico dos Três Estados, o Pico das Agulhas Negras e o Pico do Capim Amarelo. Cada um desses picos oferece vistas deslumbrantes e a sensação de superação ao alcançar o topo.
-                                                    Além das belezas naturais, a travessia da Serra Fina proporciona uma imersão completa na vida selvagem, com a possibilidade de avistar diferentes espécies de animais e explorar uma flora diversificada.
+                                                    Além das belezas naturais, a travessia da Serra Fina proporciona uma imersão completa na vida selvagem, com a possibilidade de avistar diferentes espécies de animais e explorar uma flora diversificada.                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
                                                 </div>
-                                                <div class="card-flap flap2">
-                                                <div class="card-actions">
-                                                    <a href="#" class="btn-exp">Agende sua aventura</a>
-                                                </div>
-                                                </div>
+                                            </div>
                                             </div>
                                         </div>
-                                        <!-- Escalada -->
 
+                                        <!-- ESCALADA  -->
+
+                                        <!--Escalada Guiada -->
                                         <div class="card">
-                                            <div class="bg-success text-white text-center">
-                                                Escalada
-                                            </div>
+                                            <div class="bg-success text-white text-center">Escalada</div>
                                             <div class="card__image-holder">
-                                                <img class="card__image" src="img/nativus/iron-guia-2-red.jpg" alt="Bau" />
+                                                <img class="card__image" src="img/nativus/iron-guia-2-red.jpg" alt="serra fina" />
                                             </div>
                                             <div class="card-title">
-
-                                                <h5>
+                                                <h6 class="text-center p-0 mt-2"><strong>
                                                     Escalada Guiada
-                                                </h5>
+                                                </strong></h6>
+
+                                                <hr>
                                                 <h6>
                                                     <i class="mt-3 fas fa-calendar-alt me-2"></i>Maio a Setembro
                                                 </h6>
@@ -462,39 +629,53 @@
                                                 <h6>
                                                     <i class="bi bi-hourglass-split me-2"></i>Duração: Consulte Roteiros
                                                 </h6>
+                                                <hr>
+
                                             </div>
-                                            <a href="#" class="btn-slider btn-lg btn-circle btn-outline-new-white">
-                                                Mais Detalhes
-                                            </a>
-                                            <div class="card-flap flap1">
-                                                <div class="card-description">
-                                                    A escalada guiada requer a presença de um guia experiente e especializado devido à complexidade das vias e à necessidade de procedimentos específicos. 
-                                                    Na deslumbrante Serra da Mantiqueira, os amantes da escalada encontrarão uma diversidade de vias para todos os gostos, incluindo algumas clássicas que são verdadeiras joias. 
-                                                    Abaixo estão algumas delas:
-                                                    <p><i class="fa fa-check text-success me-3"></i>Cresta com normal(Pedra do Bau - SP)</p>
-                                                    <p><i class="fa fa-check text-success me-3"></i>Elektra(Pedra do Bau - SP)</p>
-                                                    <p><i class="fa fa-check text-success me-3"></i>V de vinganca(Pedra do Bauzinho - SP)</p>
-                                                    <p><i class="fa fa-check text-success me-3"></i>Transbau(Pedra do bau - SP)</p>
-                                                </div>
-                                                <div class="card-flap flap2">
-                                                <div class="card-actions">
-                                                    <a href="#" class="btn-exp">Agende sua aventura</a>
-                                                </div>
-                                                </div>
+                                            <div class="row align-items-center w-100 mx-0">
+                                                <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#myModal11">
+                                                    Ver mais informacoes
+                                                </button>
                                             </div>
                                         </div>
-                                        <!-- Cursos -->
+                                        <div class="modal fade" id="myModal11" tabindex="-1" aria-labelledby="myModalLabel11" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="myModalLabel11">Escalada Guiada</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <img src="img/nativus/iron-guia.jpg" class="d-block w-100" alt="Imagem 1">
+                                                    <p>
+                                                        A escalada guiada requer a presença de um guia experiente e especializado devido à complexidade das vias e à necessidade de procedimentos específicos. 
+                                                        Na deslumbrante Serra da Mantiqueira, os amantes da escalada encontrarão uma diversidade de vias para todos os gostos, incluindo algumas clássicas que são verdadeiras joias. 
+                                                        Abaixo estão algumas delas:
+                                                        <p><i class="fa fa-check text-success me-3"></i>Cresta com normal(Pedra do Bau - SP)</p>
+                                                        <p><i class="fa fa-check text-success me-3"></i>Elektra(Pedra do Bau - SP)</p>
+                                                        <p><i class="fa fa-check text-success me-3"></i>V de vinganca(Pedra do Bauzinho - SP)</p>
+                                                        <p><i class="fa fa-check text-success me-3"></i>Transbau(Pedra do bau - SP)</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
 
+                                        <!--CURSOS -->
+
+                                        <!-- Iniciantes -->
                                         <div class="card">
                                             <div class="bg-success text-white text-center">Cursos</div>
                                             <div class="card__image-holder">
-                                                <img class="card__image" src="img/nativus/curso-iniciantes.jpg" alt="Bau" />
+                                                <img class="card__image" src="img/nativus/curso-iniciantes.jpg" alt="serra fina" />
                                             </div>
                                             <div class="card-title">
-
-                                                <h5>
+                                                <h6 class="text-center p-0 mt-2"><strong>
                                                     Curso iniciante de escalada
-                                                </h5>
+                                                </strong></h6>
+                                                <hr>
                                                 <h6>
                                                     <i class="mt-3 fas fa-calendar-alt me-2"></i>Maio a Setembro
                                                 </h6>
@@ -504,34 +685,48 @@
                                                 <h6>
                                                     <i class="bi bi-hourglass-split me-2"></i>2 dias completos
                                                 </h6>
+                                                <hr>
+
                                             </div>
-                                            <a href="#" class="btn-slider btn-lg btn-circle btn-outline-new-white">
-                                                Mais Detalhes
-                                            </a>
-                                            <div class="card-flap flap1">
-                                                <div class="card-description">
-                                                    O curso foi desenvolvido para quem conta com teve pouco ou nenhum contato com a escalada.
-                                                    Sao dois dias de total contato com a natureza e a rocha
-                                                    Um curso que focam em ensinar de forma pratica conhecimentos basicos sobre procedimentos de seguranca, teoria sobre os equipamentos e tecnica de escalada.
-                                                </div>  
-                                                <div class="card-flap flap2">
-                                                <div class="card-actions">
-                                                    <a href="#" class="btn-exp">Agende sua aventura</a>
+                                            <div class="row align-items-center w-100 mx-0">
+                                                <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#myModal12">
+                                                    Ver mais informacoes
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="modal fade" id="myModal12" tabindex="-1" aria-labelledby="myModalLabel12" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="myModalLabel12">Curso iniciante de escalada</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <img src="img/nativus/curso-iniciantes-3.jpg" class="d-block w-100" alt="Imagem 1">
+                                                    <p>
+                                                        O curso foi desenvolvido para quem conta com teve pouco ou nenhum contato com a escalada.
+                                                        Sao dois dias de total contato com a natureza e a rocha
+                                                        Um curso que focam em ensinar de forma pratica conhecimentos basicos sobre procedimentos de seguranca, teoria sobre os equipamentos e tecnica de escalada.
                                                 </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
                                                 </div>
                                             </div>
-                                        </div> 
+                                            </div>
+                                        </div>
+
+                                        <!-- Guiada -->
 
                                         <div class="card">
                                             <div class="bg-success text-white text-center">Cursos</div>
                                             <div class="card__image-holder">
-                                                <img class="card__image" src="img/nativus/yan-iron-red.jpg" alt="Bau" />
+                                                <img class="card__image" src="img/nativus/yan-iron-red.jpg" alt="serra fina" />
                                             </div>
                                             <div class="card-title">
-
-                                                <h5>
-                                                    Curso de escalada Guiada
-                                                </h5>
+                                                <h6 class="text-center p-0 mt-2"><strong>
+                                                    Curso escalada guiada
+                                                </strong></h6>
+                                                <hr>
                                                 <h6>
                                                     <i class="mt-3 fas fa-calendar-alt me-2"></i> Maio a Setembro
                                                 </h6>
@@ -541,12 +736,25 @@
                                                 <h6>
                                                     <i class="bi bi-hourglass-split me-2"></i>Duração: 2 dias completos
                                                 </h6>
+                                                <hr>
+
                                             </div>
-                                            <a href="#" class="btn-slider btn-lg btn-circle btn-outline-new-white">
-                                                Mais Detalhes
-                                            </a>
-                                            <div class="card-flap flap1">
-                                                <div class="card-description">
+                                            <div class="row align-items-center w-100 mx-0">
+                                                <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#myModal13">
+                                                    Ver mais informacoes
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="modal fade" id="myModal13" tabindex="-1" aria-labelledby="myModalLabel13" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-titlen" id="myModalLabel13"> Curso Escalada Guiada</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <img src="img/nativus/escalada-guiada-2.jpg" class="d-block w-100" alt="Imagem 1">
+                                                    <p>
                                                     O curso completo de escalada guiada em rocha, tem duração de dois completos, especialmente projetado para escaladores que desejam aprimorar suas habilidades e adquirir total autonomia em suas escaladas. 
                                                     Durante o curso, você terá a oportunidade de aprofundar seus conhecimentos técnicos e desenvolver as habilidades necessárias para enfrentar desafios verticais com confiança e segurança.
                                                     Nosso programa abrange uma ampla gama de tópicos essenciais, incluindo técnicas avançadas de escalada em rocha, uso correto de equipamentos de segurança, ancoragem e fixação de proteções, leitura de vias e planejamento de ascensões. 
@@ -555,113 +763,93 @@
                                                     Com um enfoque especial na segurança, ética e preservação ambiental, garantimos que você esteja preparado para enfrentar qualquer desafio que encontrar nas rochas.
                                                     Ao concluir o curso de escalada guiada em rocha, você estará equipado com as habilidades e o conhecimento necessários para planejar e executar suas próprias escaladas, explorando novas vias, enfrentando paredes desafiadoras e desfrutando de uma maior independência em sua prática de escalada.
                                                     Não importa se você está buscando aprimorar suas habilidades em rocha, expandir seu repertório de vias ou adquirir confiança para explorar locais de escalada remotos, nosso curso de escalada guiada em rocha irá capacitá-lo a alcançar seus objetivos e elevar sua experiência de escalada a um novo nível. 
-                                                    Prepare-se para desafiar seus limites, conquistar novas alturas e mergulhar em uma jornada de aventura vertical inesquecível.
                                                 </div>
-                                                <div class="card-flap flap2">
-                                                <div class="card-actions">
-                                                    <a href="#" class="btn-exp">Agende sua aventura</a>
-                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
                                                 </div>
                                             </div>
+                                            </div>
                                         </div>
+
+                                        <!-- Movel -->
 
                                         <div class="card">
                                             <div class="bg-success text-white text-center">Cursos</div>
                                             <div class="card__image-holder">
-                                                <img class="card__image" src="img/nativus/iron-mari-red.jpg" alt="Bau" />
+                                                <img class="card__image" src="img/nativus/yan-iron-movel.jpg" alt="escalada movel" />
                                             </div>
                                             <div class="card-title">
-
-                                                <h5>
-                                                    Curso de escalada Móvel
-                                                </h5>
+                                                <h6 class="text-center p-0 mt-2"><strong>
+                                                    Curso Escalada Móvel
+                                                </strong></h6>
+                                                <hr>
                                                 <h6>
-                                                    <i class="mt-3 fas fa-calendar-alt me-2"></i>Maio a Setembro
-                                                </h6>
-                                                <h6>
-                                                    <i class="bi bi-lungs-fill me-2"></i>Nivel: Avançado
-                                                </h6>
-                                                <h6>
-                                                    <i class="bi bi-hourglass-split me-2"></i>2 dias completos
-                                                </h6>
-                                            </div>
-                                            <a href="#" class="btn-slider btn-lg btn-circle btn-outline-new-white">
-                                                Mais Detalhes
-                                            </a>
-                                            <div class="card-flap flap1">
-                                                <div class="card-description">
-                                                    O curso de  escalada guiada em peças móveis, projetado especificamente para escaladores experientes que desejam expandir seu conjunto de habilidades e adquirir total autonomia ao enfrentar desafios de escalada que envolvem o uso de proteções móveis. Durante o curso, você terá a oportunidade de aprimorar suas técnicas de escalada em peças móveis, aprofundar sua compreensão sobre o uso correto dos equipamentos e aprender os procedimentos essenciais para garantir a segurança e eficácia das proteções.
-                                                    Nossos instrutores altamente qualificados e experientes irão compartilhar seus conhecimentos especializados, fornecendo orientação personalizada e feedback contínuo para ajudá-lo a desenvolver suas habilidades. O curso abordará tópicos importantes, como seleção adequada de proteções móveis, colocação correta das peças, equalização de ancoragens, gerenciamento de cordas e técnicas avançadas para escalada em fissuras e terrenos variados.
-                                                    Durante as sessões práticas, você terá a oportunidade de aplicar as técnicas aprendidas em uma variedade de cenários reais de escalada. O instrutor ira simular situações desafiadoras e oferecer orientação personalizada para que você possa aprimorar suas habilidades de tomada de decisão e aperfeiçoar suas técnicas de escalada em peças móveis.
-                                                    Ao concluir o curso de escalada guiada em peças móveis, você estará preparado para enfrentar com confiança uma ampla variedade de desafios de escalada que exigem o uso de proteções móveis. Você terá adquirido as habilidades e conhecimentos necessários para identificar as melhores opções de proteção em diferentes tipos de rocha, avaliar a qualidade e a segurança das peças móveis existentes, e criar sistemas eficientes de ancoragem e equalização.             
-                                                    Independentemente de você estar planejando escaladas em montanhas, falésias ou paredes rochosas, nosso curso de escalada guiada em peças móveis irá equipá-lo com as habilidades e a confiança necessárias para explorar novas vias e desafiar-se em diferentes tipos de terreno. Prepare-se para ampliar seus horizontes na escalada, dominar as técnicas avançadas de proteção móvel e desfrutar de uma nova dimensão de liberdade e aventura vertical.
-                                                </div>
-                                                <div class="card-flap flap2">
-                                                <div class="card-actions">
-                                                    <a href="#" class="btn-exp">Agende sua aventura</a>
-                                                </div>
-                                                </div>
-                                            </div>
-                                        </div> 
-                                    </div>
-                                </div>
-                            </div>
-                        
-                            <div class="tab-pane fade" id="v-pills-vivencias" role="tabpanel" aria-labelledby="v-pills-vivencias-tab">
-                                <div class="col">
-                                    <div class="cards mb-5">
-                                        <div class="card">
-                                            <div class="bg-success text-white text-center">Vivencias</div>
-                                            <div class="card__image-holder">
-                                                <img class="card__image" src="img/nativus/casal-bau.jpg" alt="Bau" />
-                                            </div>
-                                            <div class="card-title">
-                                            <a href="#" class="toggle-info btn-exp">
-                                                <span class="left"></span>
-                                                <span class="right"></span>
-                                            </a>
-                                            <h5>
-                                                Subida a pedra do Bau
-                                                <h6>
-                                                    <i class="mt-3 fas fa-calendar-alt me-2"></i> Epoca: Todos os meses
+                                                    <i class="mt-3 fas fa-calendar-alt me-2"></i> Maio a Setembro
                                                 </h6>
                                                 <h6>
                                                     <i class="bi bi-lungs-fill me-2"></i>Nivel: Intermediario
                                                 </h6>
                                                 <h6>
-                                                    <i class="bi bi-hourglass-split me-2"></i>Duracao: 4 a 5 horas
+                                                    <i class="bi bi-hourglass-split me-2"></i>Duração: 2 dias completos
                                                 </h6>
-                                            </h5>
+                                                <hr>
+
                                             </div>
-                                            <a href="#" class="btn-slider btn-lg btn-circle btn-outline-new-white">
-                                                Mais Detalhes
-                                            </a>
-                                            <div class="card-flap flap1">
-                                            <div class="card-description">
-                                                Tudo se inicia em uma trilha que leva até a base da Pedra do Baú, desde a base se inicia-se o trecho da via ferrata(escadinhas), um trecho com mais de 500 degraus de ferro fixados na rocha.
-                                                Essa subida leva ao cume da pedra do bau, onde se encontra uma das mais belas vistas da Serra da Mantiqueira. 
-                                                Nessa parte, e obrigatorio que o visitante utilize equipamentos de segurança, mas nao se preocupe, nesse servico a Nativus vai te fornecer todos os equipamentos necessarios, alem de um guia altamente capacitado para te acompanhar durante toda sua aventura.
+                                            <div class="row align-items-center w-100 mx-0">
+                                                <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#myModal14">
+                                                    Ver mais informacoes
+                                                </button>
                                             </div>
-                                            <div class="card-flap flap2">
-                                                <div class="card-actions">
-                                                <a href="#" class="btn-exp">Agende sua aventura</a>
+                                        </div>
+                                        <div class="modal fade" id="myModal14" tabindex="-1" aria-labelledby="myModalLabel14" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-titlen" id="myModalLabel14"> Curso Escalada Móvel</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="img/nativus/iron-mari-red.jpg" class="d-block w-100" alt="Imagem 1">
+                                                    <p>
+                                                        O curso de  escalada guiada em peças móveis, projetado especificamente para escaladores experientes que desejam expandir seu conjunto de habilidades e adquirir total autonomia ao enfrentar desafios de escalada que envolvem o uso de proteções móveis. Durante o curso, você terá a oportunidade de aprimorar suas técnicas de escalada em peças móveis, aprofundar sua compreensão sobre o uso correto dos equipamentos e aprender os procedimentos essenciais para garantir a segurança e eficácia das proteções.
+                                                        Nossos instrutores altamente qualificados e experientes irão compartilhar seus conhecimentos especializados, fornecendo orientação personalizada e feedback contínuo para ajudá-lo a desenvolver suas habilidades. O curso abordará tópicos importantes, como seleção adequada de proteções móveis, colocação correta das peças, equalização de ancoragens, gerenciamento de cordas e técnicas avançadas para escalada em fissuras e terrenos variados.
+                                                        Durante as sessões práticas, você terá a oportunidade de aplicar as técnicas aprendidas em uma variedade de cenários reais de escalada. O instrutor ira simular situações desafiadoras e oferecer orientação personalizada para que você possa aprimorar suas habilidades de tomada de decisão e aperfeiçoar suas técnicas de escalada em peças móveis.
+                                                        Ao concluir o curso de escalada guiada em peças móveis, você estará preparado para enfrentar com confiança uma ampla variedade de desafios de escalada que exigem o uso de proteções móveis. Você terá adquirido as habilidades e conhecimentos necessários para identificar as melhores opções de proteção em diferentes tipos de rocha, avaliar a qualidade e a segurança das peças móveis existentes, e criar sistemas eficientes de ancoragem e equalização.             
+                                                        Independentemente de você estar planejando escaladas em montanhas, falésias ou paredes rochosas, nosso curso de escalada guiada em peças móveis irá equipá-lo com as habilidades e a confiança necessárias para explorar novas vias e desafiar-se em diferentes tipos de terreno. Prepare-se para ampliar seus horizontes na escalada, dominar as técnicas avançadas de proteção móvel e desfrutar de uma nova dimensão de liberdade e aventura vertical.
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
                                                 </div>
                                             </div>
                                             </div>
                                         </div>
-                                        
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="v-pills-vivencias" role="tabpanel" aria-labelledby="v-pills-vivencias-tab">
+                                <div class="col">
+                                    <div class="cards mb-5">
+
+                                        <!-- VIVENCIAS -->
+
+                                        <!-- Subida Bau -->
                                         <div class="card">
-                                            <div class="bg-success text-white text-center">Vivencias</div>
+                                            <div class="bg-success text-white text-center">
+                                                Vivências
+                                            </div>
                                             <div class="card__image-holder">
-                                                <img class="card__image" src="img/nativus/visao-ana-chata.jpg" alt="Bau" />
+                                                <img class="card__image" src="img/nativus/casal-bau.jpg" alt="Bau" />
                                             </div>
                                             <div class="card-title">
-
-                                            <h5>
-                                            Subida a pedra Ana Chata
-                                            </h5>
+                                            <h6 class="text-center p-0 mt-2"><strong>
+                                                Subida a pedra do Bau
+                                            </strong>
+                                            </h6>
+                                            <hr>
                                             <h6>
-                                                <i class="mt-3 fas fa-calendar-alt me-2"></i> Epoca: Todos os meses
+                                                <i class="mt-3 fas fa-calendar-alt me-2"></i>Todos os meses
                                             </h6>
                                             <h6>
                                                 <i class="bi bi-lungs-fill me-2"></i>Nivel: Intermediario
@@ -669,60 +857,195 @@
                                             <h6>
                                                 <i class="bi bi-hourglass-split me-2"></i>Duracao: 4 a 5 horas
                                             </h6>
+                                            <hr>
+
                                             </div>
-                                            <a href="#" class="btn-slider btn-lg btn-circle btn-outline-new-white">
-                                                Mais Detalhes
-                                            </a>
-                                            <div class="card-flap flap1">
-                                                <div class="card-description">
-                                                A Pedra Ana Chata é a menor das três formações rochosas que compõem o Monumento Natural Pedra do Baú. 
-                                                No entanto, seu tamanho reduzido não diminui o seu encanto.
-                                                A experiência tem início em uma trilha deslumbrante composta por passagens por bosques, cavernas e vistas deslumbrantes. 
-                                                A chegada ao topo é uma surpresa, proporcionando uma vista espetacular de 360° de tirar o fôlego.
+                                            <div class="row align-items-center w-100 mx-0">
+                                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                                                    Ver mais informacoes
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="myModalLabel">Subida a pedra do Bau</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                 </div>
-                                                <div class="card-flap flap2">
-                                                <div class="card-actions">
-                                                    <a href="#" class="btn-exp">Agende sua aventura</a>
+                                                <div class="modal-body">
+                                                    <img src="img/nativus/vivencia-bau.jpg" class="d-block w-100" alt="Imagem 1">
+                                                    <p>
+                                                        Tudo se inicia em uma trilha que leva até a base da Pedra do Baú, desde a base se inicia-se o trecho da via ferrata(escadinhas), um trecho com mais de 500 degraus de ferro fixados na rocha.
+                                                        Essa subida leva ao cume da pedra do bau, onde se encontra uma das mais belas vistas da Serra da Mantiqueira. 
+                                                        Nessa parte, e obrigatorio que o visitante utilize equipamentos de segurança, mas nao se preocupe, nesse servico a Nativus vai te fornecer todos os equipamentos necessarios, alem de um guia altamente capacitado para te acompanhar durante toda sua aventura.
+                                                    </p>
                                                 </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
                                                 </div>
                                             </div>
-                                        </div>    
-                                        
+                                            </div>
+                                        </div>
+
+                                        <!-- Ana Chata -->
                                         <div class="card">
-                                            <div class="bg-success text-white text-center">Vivencias</div>
+                                            <div class="bg-success text-white text-center">Vivências</div>
+                                            <div class="card__image-holder">
+                                                <img class="card__image" src="img/nativus/visao-ana-chata.jpg" alt="Bau" />
+                                            </div>
+                                            <div class="card-title">
+
+                                            <h6  class="text-center p-0 mt-2"><strong>
+                                                Subida a pedra Ana Chata
+                                            </strong>
+                                            </h6>
+                                            <hr>
+                                            <h6>
+                                                <i class="mt-3 fas fa-calendar-alt me-2"></i>Todos os meses
+                                            </h6>
+                                            <h6>
+                                                <i class="bi bi-lungs-fill me-2"></i>Nível: Intermediário
+                                            </h6>
+                                            <h6>
+                                                <i class="bi bi-hourglass-split me-2"></i>Duração: 4 a 5 horas
+                                            </h6>
+                                            <hr>
+
+                                            </div>
+                                            <div class="row align-items-center w-100 mx-0">
+                                                <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#myModal2">
+                                                    Ver mais informacoes
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="modal fade" id="myModal2" tabindex="-1" aria-labelledby="myModalLabel2" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h5 class="modal-title" id="myModalLabel2">Subida a pedra da Ana Chata</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="img/nativus/ana-chata.jpg" class="d-block w-100" alt="Imagem 1">
+                                                <p>
+                                                    A Pedra Ana Chata é a menor das três formações rochosas que compõem o Monumento Natural Pedra do Baú. 
+                                                    No entanto, seu tamanho reduzido não diminui o seu encanto.
+                                                    A experiência tem início em uma trilha deslumbrante composta por passagens por bosques, cavernas e vistas deslumbrantes. 
+                                                    A chegada ao topo é uma surpresa, proporcionando uma vista espetacular de 360° de tirar o fôlego.
+                                                </p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- Dia de escalada -->
+                                        <div class="card">
+                                            <div class="bg-success text-white text-center">Vivências</div>
                                             <div class="card__image-holder">
                                                 <img class="card__image" src="img/nativus/vivencia-thais.jpg" alt="Bau" />
                                             </div>
                                             <div class="card-title">
 
-                                                <h5>
+                                                <h6 class="text-center p-0 mt-2"><strong>
                                                 Dia de escalada
-                                                </h5>
+                                                </strong>
+                                                </h6>
+                                            <hr>
                                             <h6>
-                                                <i class="mt-3 fas fa-calendar-alt me-2"></i> Epoca: Todos os meses
+                                                <i class="mt-3 fas fa-calendar-alt me-2"></i> Todos os meses
                                             </h6>
                                             <h6>
-                                                <i class="bi bi-lungs-fill me-2"></i>Nivel: Intermediario
+                                                <i class="bi bi-lungs-fill me-2"></i>Nivel: Fácil/Intermediário
                                             </h6>
                                             <h6>
-                                                <i class="bi bi-hourglass-split me-2"></i>Duracao: 8 horas
+                                                <i class="bi bi-hourglass-split me-2"></i>Duração: 8 horas
                                             </h6>
+                                            <hr>
                                             </div>
-                                            <a href="#" class="btn-slider btn-lg btn-circle btn-outline-new-white">
-                                                Mais Detalhes
-                                            </a>
-                                            <div class="card-flap flap1">
-                                                <div class="card-description">
+                                            <div class="row align-items-center w-100 mx-0">
+                                                <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#myModal3">
+                                                    Ver mais informacoes
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="modal fade" id="myModal3" tabindex="-1" aria-labelledby="myModalLabel3" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h5 class="modal-title" id="myModalLabel3">Dia de Escalada</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="img/nativus/dia-de-escalada.jpg" class="d-block w-100" alt="Imagem 1">
+                                                <p>
                                                 A nativus oferece uma vivência durante todo o dia em contato com a rocha, 
                                                 a vivência é aplicada em um campo escola com vias de escalada de fácil/médio ideal para você que nunca escalou ou para você que já teve contato e quer conhecer ainda mais sobre a escalada, experimentando esse esporte cheio de desafios. 
                                                 A escalada em rocha proporciona um contato unico com a natureza.
                                                 Durante a atividade estaremos passando dicas de movimentações e técnicas na escalada, além de cuidados com o meio ambiente e o lixo e éticas do montanhismo no geral.
+                                                </p>
                                                 </div>
-                                                <div class="card-flap flap2">
-                                                <div class="card-actions">
-                                                    <a href="#" class="btn-exp">Agende sua aventura</a>
+                                                <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
                                                 </div>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Nascer do Sol na Pedra da Balança -->
+                                        <div class="card">
+                                            <div class="bg-success text-white text-center">Vivências</div>
+                                            <div class="card__image-holder">
+                                                <img class="card__image" src="img/nativus/isa-pedra-balanca.jpg" alt="Bau" />
+                                            </div>
+                                            <div class="card-title">
+
+                                            <h6 class="text-center p-0 mt-2"><strong>
+                                                Nascer do Sol Pedra da Balança
+                                            </strong></h6>
+                                            <hr>
+                                            <h6>
+                                                <i class="mt-3 fas fa-calendar-alt me-2"></i>Todos os meses
+                                            </h6>
+                                            <h6>
+                                                <i class="bi bi-lungs-fill me-2"></i>Nível: Intermediário
+                                            </h6>
+                                            <h6>
+                                                <i class="bi bi-hourglass-split me-2"></i>Duração: Uma noite
+                                            </h6>
+                                            <hr>
+                                            </div>
+                                            <div class="row align-items-center w-100 mx-0">
+                                                <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#myModal4">
+                                                    Ver mais informacoes
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="modal fade" id="myModal4" tabindex="-1" aria-labelledby="myModalLabel4" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h5 class="modal-title" id="myModalLabel4">Nascer do Sol Pedra da Balança</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                 </div>
+                                                <div class="modal-body">
+                                                    <img src="img/nativus/trilha-balanca.jpg" class="d-block w-100" alt="Imagem 1">
+                                                <p>
+                                                    A Pedra da Balança é um destino turístico incrível localizado em uma região montanhosa deslumbrante, oferecendo uma experiência única para os amantes da natureza e da aventura. Situada com vista para a imponente Pedra do Baú, essa rocha imponente é conhecida por suas formações rochosas fascinantes e por proporcionar uma vista deslumbrante do nascer do sol.
+                                                    Uma das principais atrações desse recorrido turístico é o camping disponível nas proximidades da Pedra da Balança. Os aventureiros têm a oportunidade de acampar em meio à natureza exuberante, desfrutando de uma atmosfera tranquila e revigorante. O camping oferece estrutura básica, como banheiros e áreas para fogueira, proporcionando uma experiência autêntica de acampamento.
+                                                    Ao amanhecer, os visitantes têm a oportunidade de testemunhar um espetáculo da natureza: o nascer do sol. Com a Pedra do Baú ao fundo, o sol lentamente emerge no horizonte, pintando o céu com cores vibrantes e criando uma paisagem deslumbrante. É um momento mágico que transmite uma sensação de paz e renovação, tornando-se um momento imperdível para os visitantes.
+                                                    Além disso, a região oferece trilhas desafiadoras para os aventureiros mais experientes, permitindo explorar a natureza envolvente e apreciar vistas panorâmicas deslumbrantes. É possível realizar caminhadas pela região, com opções de diferentes níveis de dificuldade, proporcionando uma experiência personalizada para cada visitante.
+                                                    Para os amantes da fotografia, a Pedra da Balança é um verdadeiro paraíso. Suas formações rochosas únicas e a vista privilegiada oferecem cenários perfeitos para capturar momentos especiais e eternizá-los em belas imagens.
+                                                    Em resumo, o recorrido turístico na Pedra da Balança oferece uma combinação perfeita de natureza, aventura e vistas deslumbrantes. Seja acampando próximo à rocha imponente, testemunhando o nascer do sol com a Pedra do Baú ao fundo ou explorando as trilhas circundantes, essa experiência certamente encantará os visitantes e proporcionará lembranças inesquecíveis.
+                                                </p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                                </div>
+                                            </div>
                                             </div>
                                         </div>
                                     </div>
@@ -730,389 +1053,492 @@
                             </div>
 
                             <div class="tab-pane fade" id="v-pills-trekking" role="tabpanel" aria-labelledby="v-pills-trekking-tab">
-                                <div class="col">
-                                    <div class="cards mb-5">
-                                        <div class="card">
-                                            <div class="bg-success text-white text-center">Trekking</div>
-                                            <div class="card__image-holder">
-                                                <img class="card__image" src="img/nativus/vivencia-tres-picos.jpg" alt="Bau"/>
-                                            </div>
-                                            <div class="card-title">
-
-                                                <h5>
-                                                    Trekking das Três Pedras
-                                                </h5>
-                                                <h6>
-                                                    <i class="mt-3 fas fa-calendar-alt me-2"></i>Todos os meses
-                                                </h6>
-                                                <h6>
-                                                    <i class="bi bi-lungs-fill me-2"></i>Nível: Intermediário
-                                                </h6>
-                                                <h6>
-                                                    <i class="bi bi-hourglass-split me-2"></i>Duração: 8 horas
-                                                </h6>
-                                            </div>
-                                            <a href="#" class="btn-slider btn-lg btn-circle btn-outline-new-white">
-                                                Mais Detalhes
-                                            </a>
-                                            <div class="card-flap flap1">
-                                                <div class="card-description">
-                                                    O trekking que leva aos três cumes é um dos nossos principais atrativos.
-                                                    A trilha no complexo do Bau é um desafio completo de nível intermediário.
-                                                    Durante a caminhada, podemos apreciar belas paisagens da Mantiqueira.
-                                                    O trekking das Três Pedras é o desafio completo, uma trilha circular para acessar o cume do Bauzinho, Pedra do Baú e Ana Chata.
-                                                </div>
-                                                <div class="card-flap flap2">
-                                                <div class="card-actions">
-                                                    <a href="contato" class="btn-exp">Agende sua aventura</a>
-                                                </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="card">
-                                            <div class="bg-success text-white text-center">Trekking</div>
-                                            <div class="card__image-holder">
-                                                <img class="card__image" src="img/nativus/marins-isa-red.jpg" alt="Bau" />
-                                            </div>
-                                            <div class="card-title">
-
-                                                <h5>
-                                                    Travessia Marins x Itaguare
-                                                </h5>
-                                                <h6>
-                                                    <i class="mt-3 fas fa-calendar-alt me-2"></i> Maio a Setembro
-                                                </h6>
-                                                <h6>
-                                                    <i class="bi bi-lungs-fill me-2"></i>Nivel: Avançado
-                                                </h6>
-                                                <h6>
-                                                    <i class="bi bi-hourglass-split me-2"></i>Duração: 3 dias e 2 noites
-                                                </h6>
-                                            </div>
-                                            <a href="#" class="btn-slider btn-lg btn-circle btn-outline-new-white">
-                                                Mais Detalhes
-                                            </a>
-                                            <div class="card-flap flap1">
-                                                <div class="card-description">
-                                                    A travessia Marins × Itaguaré é considerada uma das mais clássicas e desafiadoras expedições de trekking do montanhismo brasileiro. 
-                                                    Composta por dois picos imponentes, o Pico Marins e o Pico do Itaguaré, essa jornada requer aproximadamente 3 dias para ser completada. 
-                                                    Durante esse tempo, os aventureiros irão enfrentar trechos técnicos de escalaminhadas e percorrer longas caminhadas, explorando as paisagens deslumbrantes da região. 
-                                                    É uma experiência intensa e gratificante, ideal para aqueles que desejam testar suas habilidades de montanhismo e se conectar com a natureza de forma única. 
-                                                    Prepare-se para desafios emocionantes e momentos de pura superação nessa aventura memorável.
-                                                </div>
-                                                <div class="card-flap flap2">
-                                                <div class="card-actions">
-                                                    <a href="#" class="btn-exp">Agende sua aventura</a>
-                                                </div>
-                                                </div>
-                                            </div>
-                                        </div> 
-
-                                        <div class="card">
-                                            <div class="bg-success text-white text-center">Trekking</div>
-                                            <div class="card__image-holder">
-                                                <img class="card__image" src="img/nativus/itatiaia-red.jpg" alt="Bau" />
-                                            </div>
-                                            <div class="card-title">
-
-                                                <h5>
-                                                    Parque nacional do Itatiaia
-                                                </h5>
-                                                <h6>
-                                                    <i class="mt-3 fas fa-calendar-alt me-2"></i>Maio a Setembro
-                                                </h6>
-                                                <h6>
-                                                    <i class="bi bi-lungs-fill me-2"></i>Nivel: Avançado
-                                                </h6>
-                                                <h6>
-                                                    <i class="bi bi-hourglass-split me-2"></i>Duração: Consulte Roteiros
-                                                </h6>
-                                            </div>
-                                            <a href="#" class="btn-slider btn-lg btn-circle btn-outline-new-white">
-                                                Mais Detalhes
-                                            </a>
-                                            <div class="card-flap flap1">
-                                                <div class="card-description">
-                                                    O Parque Nacional do Itatiaia, localizado no estado do Rio de Janeiro, é o primeiro Parque Nacional do Brasil, estabelecido em junho de 1937. Situado na deslumbrante Serra da Mantiqueira, o parque abriga uma biodiversidade exuberante e um ecossistema incrivelmente rico, proporcionando uma beleza natural única. Com suas montanhas majestosas, cachoeiras deslumbrantes e trilhas desafiadoras, o Itatiaia é um verdadeiro paraíso para os amantes da natureza e entusiastas de atividades ao ar livre. Explore suas trilhas pitorescas, maravilhe-se com a diversidade de flora e fauna, e deixe-se envolver pela atmosfera mágica deste lugar especial. Uma visita ao Parque Nacional do Itatiaia é uma oportunidade imperdível de conectar-se com a natureza e apreciar toda a sua grandiosidade.                                                Recorridos: 
-                                                    <p><i class="fa fa-check text-success me-3"></i>Pico Agulhas negras</p>
-                                                    <p><i class="fa fa-check text-success me-3"></i>Pedra do Altar</p>
-                                                    <p><i class="fa fa-check text-success me-3"></i>Prateleiras</p>
-                                                    <p><i class="fa fa-check text-success me-3"></i>Travessia Rancho Caido</p>
-                                                    <p><i class="fa fa-check text-success me-3"></i>Travessia Serra Negra</p>
-                                                    <p><i class="fa fa-check text-success me-3"></i>Travessia Ruy Braga</p>
-                                                    Seja qual for o seu nível de experiência ou preferência, o Parque Nacional do Itatiaia oferece roteiros de aventura para todos os gostos, garantindo momentos inesquecíveis em meio à natureza exuberante da região. Prepare-se para explorar as maravilhas desse lugar e vivenciar emoções intensas em cada passo da sua jornada.
-                                                </div>
-                                                <div class="card-flap flap2">
-                                                <div class="card-actions">
-                                                    <a href="#" class="btn-exp">Agende sua aventura</a>
-                                                </div>
-                                                </div>
-                                            </div>
-                                        </div>
                                     
-                                        <div class="card">
-                                            <div class="bg-success text-white text-center">
-                                                Trekking
-                                            </div>
-                                            <div class="card__image-holder">
-                                                <img class="card__image" src="img/nativus/travessia-1-red.jpg" alt="Bau" />
-                                            </div>
-                                            <div class="card-title">
+                                <!-- TREKKING -->
+                                <!-- Tres Pedras -->
+                                <div class="card">
+                                    <div class="bg-success text-white text-center">Trekking</div>
+                                    <div class="card__image-holder">
+                                        <img class="card__image" src="img/nativus/tres-pedras.jpg" alt="Bau" />
+                                    </div>
+                                    <div class="card-title">
 
-                                                <h5>
-                                                    Serra dos Órgãos (RJ)
-                                                </h5>
-                                                <h6>
-                                                    <i class="mt-3 fas fa-calendar-alt me-2"></i>Maio a Setembro
-                                                </h6>
-                                                <h6>
-                                                    <i class="bi bi-lungs-fill me-2"></i>Nivel: Avançado
-                                                </h6>
-                                                <h6>
-                                                    <i class="bi bi-hourglass-split me-2"></i>Duração: Consulte Roteiros
-                                                </h6>
-                                            </div>
-                                            <a href="#" class="btn-slider btn-lg btn-circle btn-outline-new-white">
-                                                Mais Detalhes
-                                            </a>
-                                            <div class="card-flap flap1">
-                                                <div class="card-description">
-                                                    O Parque Nacional da Serra dos Órgãos, localizado no estado do Rio de Janeiro, é uma verdadeira joia natural. Criado em novembro de 1939, o parque possui uma paisagem deslumbrante e uma rica biodiversidade. Com suas imponentes montanhas, formações rochosas únicas e uma vegetação exuberante, a Serra dos Órgãos oferece uma experiência inigualável para os amantes da natureza e entusiastas de atividades ao ar livre. Suas trilhas bem demarcadas levam os visitantes a cenários de tirar o fôlego, como o icônico Dedo de Deus e o mirante da Pedra do Sino, de onde se tem vistas panorâmicas deslumbrantes. Além disso, o parque abriga uma diversidade de fauna e flora, proporcionando um verdadeiro santuário para inúmeras espécies. Com uma infraestrutura bem desenvolvida, o Parque Nacional da Serra dos Órgãos oferece aos visitantes uma experiência completa, com opções de trilhas para diferentes níveis de habilidade, áreas de camping, e uma oportunidade única de se conectar com a natureza em seu estado mais puro. Explore os tesouros naturais da Serra dos Órgãos e deixe-se encantar pela magnificência desse lugar extraordinário.
-                                                    <p><i class="fa fa-check text-success me-3"></i>Travessia Petrópolis x Teresópolis</p>
-                                                    <p><i class="fa fa-check text-success me-3"></i>Cachoeira Véu de Noiva</p>
-                                                    <p><i class="fa fa-check text-success me-3"></i>Circuitos de Escalada</p>
-                                                    Seja qual for o seu nível de experiência ou preferência, o Parque Nacional da Serra dos Órgãos oferece roteiros de aventura para todos os gostos, garantindo momentos inesquecíveis em meio à natureza exuberante da região. Prepare-se para explorar as maravilhas desse lugar e vivenciar emoções intensas em cada passo da sua jornada.
-                                                </div>
-                                                <div class="card-flap flap2">
-                                                <div class="card-actions">
-                                                    <a href="#" class="btn-exp">Agende sua aventura</a>
-                                                </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <h6 class="text-center p-0 mt-2"><strong>
+                                            Travessia das Três Pedras
+                                        </strong></h6>
+                                        <hr>
+                                        <h6>
+                                            <i class="mt-3 fas fa-calendar-alt me-2"></i>Todos os meses
+                                        </h6>
+                                        <h6>
+                                            <i class="bi bi-lungs-fill me-2"></i>Nível: Intermediário
+                                        </h6>
+                                        <h6>
+                                            <i class="bi bi-hourglass-split me-2"></i>Duração: 8 horas
+                                        </h6>
+                                        <hr>
 
-                                        <div class="card">
-                                            <div class="bg-success text-white text-center">
-                                                Trekking
-                                            </div>
-                                            <div class="card__image-holder">
-                                                <img class="card__image" src="img/nativus/travessia-da-serra-fina.jpg" alt="Bau" />
-                                            </div>
-                                            <div class="card-title">
-
-                                                <h5>
-                                                    Travessia da Serra Fina (MG)
-                                                </h5>
-                                                <h6>
-                                                    <i class="mt-3 fas fa-calendar-alt me-2"></i>Maio a Setembro
-                                                </h6>
-                                                <h6>
-                                                    <i class="bi bi-lungs-fill me-2"></i>Nivel: Avançado
-                                                </h6>
-                                                <h6>
-                                                    <i class="bi bi-hourglass-split me-2"></i>Duração: 3 a 4 dias
-                                                </h6>
-                                            </div>
-                                            <a href="#" class="btn-slider btn-lg btn-circle btn-outline-new-white">
-                                                Mais Detalhes
-                                            </a>
-                                            <div class="card-flap flap1">
-                                                <div class="card-description">
-                                                    A travessia da Serra Fina é considerada um dos desafios mais emblemáticos do montanhismo brasileiro. 
-                                                    Localizada na divisa entre os estados de Minas Gerais e São Paulo, essa travessia oferece uma experiência única e deslumbrante aos aventureiros que se aventuram em suas trilhas.
-                                                    Com uma extensão de aproximadamente 30 quilômetros, a travessia da Serra Fina percorre uma região de altitudes elevadas, com picos que ultrapassam os 2.400 metros. Durante o percurso, os exploradores são presenteados com paisagens de tirar o fôlego, como vales profundos, montanhas imponentes e uma natureza exuberante.
-                                                    No entanto, a travessia da Serra Fina não é para os fracos de espírito. 
-                                                    Ela exige um bom condicionamento físico, habilidades em navegação e conhecimento técnico em montanhismo. 
-                                                    As trilhas são íngremes, estreitas e apresentam trechos expostos, exigindo cuidado e atenção dos aventureiros.
-                                                    Durante a jornada, os participantes têm a oportunidade de conquistar os três principais picos da região: o Pico dos Três Estados, o Pico das Agulhas Negras e o Pico do Capim Amarelo. Cada um desses picos oferece vistas deslumbrantes e a sensação de superação ao alcançar o topo.
-                                                    Além das belezas naturais, a travessia da Serra Fina proporciona uma imersão completa na vida selvagem, com a possibilidade de avistar diferentes espécies de animais e explorar uma flora diversificada.
-                                                </div>
-                                                <div class="card-flap flap2">
-                                                <div class="card-actions">
-                                                    <a href="#" class="btn-exp">Agende sua aventura</a>
-                                                </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    </div>
+                                    <div class="row align-items-center w-100 mx-0">
+                                        <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#myModal5">
+                                            Ver mais informacoes
+                                        </button>
                                     </div>
                                 </div>
+                                <div class="modal fade" id="myModal5" tabindex="-1" aria-labelledby="myModalLabel5" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="myModalLabel5">Trekking das Três Pedras</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="img/nativus/isa-tres.jpg" class="d-block w-100" alt="Imagem 1">
+                                        <p>
+                                            O trekking que leva aos três cumes é um dos nossos principais atrativos.
+                                            A trilha no complexo do Bau é um desafio completo de nível intermediário.
+                                            Durante a caminhada, podemos apreciar belas paisagens da Mantiqueira.
+                                            O trekking das Três Pedras é o desafio completo, uma trilha circular para acessar o cume do Bauzinho, Pedra do Baú e Ana Chata.
+                                        </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <!-- Marins x Itaguare -->
+                                <div class="card">
+                                    <div class="bg-success text-white text-center">Trekking</div>
+                                    <div class="card__image-holder">
+                                        <img class="card__image" src="img/nativus/marins-ita-2.jpg" alt="Bau" />
+                                    </div>
+                                    <div class="card-title">
+                                        <h6 class="text-center p-0 mt-2"><strong>
+                                            Travessia Marins x Itaguare
+                                        </strong></h6>
+                                        <hr>
+                                        <h6>
+                                            <i class="mt-3 fas fa-calendar-alt me-2"></i> Maio a Setembro
+                                        </h6>
+                                        <h6>
+                                            <i class="bi bi-lungs-fill me-2"></i>Nivel: Avançado
+                                        </h6>
+                                        <h6>
+                                            <i class="bi bi-hourglass-split me-2"></i>Duração: 3 dias e 2 noites
+                                        </h6>
+                                        <hr>
+
+                                    </div>
+                                    <div class="row align-items-center w-100 mx-0">
+                                        <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#myModal6">
+                                            Ver mais informacoes
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="myModal6" tabindex="-1" aria-labelledby="myModalLabel6" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="myModalLabel5">Trekking das Três Pedras</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="img/nativus/marins-ita-grupo.jpg" class="d-block w-100" alt="Imagem 1">
+                                        <p>
+                                            A travessia Marins × Itaguaré é considerada uma das mais clássicas e desafiadoras expedições de trekking do montanhismo brasileiro. 
+                                            Composta por dois picos imponentes, o Pico Marins e o Pico do Itaguaré, essa jornada requer aproximadamente 3 dias para ser completada. 
+                                            Durante esse tempo, os aventureiros irão enfrentar trechos técnicos de escalaminhadas e percorrer longas caminhadas, explorando as paisagens deslumbrantes da região. 
+                                            É uma experiência intensa e gratificante, ideal para aqueles que desejam testar suas habilidades de montanhismo e se conectar com a natureza de forma única. 
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <!-- Itatiaia -->
+                                <div class="card">
+                                    <div class="bg-success text-white text-center">Trekking</div>
+                                    <div class="card__image-holder">
+                                        <img class="card__image" src="img/nativus/itatiaia-grupo.jpg" alt="itatiaia" />
+                                    </div>
+                                    <div class="card-title">
+                                        <h6 class="text-center p-0 mt-2"><strong>
+                                            Parque nacional do Itatiaia
+                                        </strong></h6>
+                                        <hr>
+                                        <h6>
+                                            <i class="mt-3 fas fa-calendar-alt me-2"></i>Maio a Setembro
+                                        </h6>
+                                        <h6>
+                                            <i class="bi bi-lungs-fill me-2"></i>Nivel: Avançado
+                                        </h6>
+                                        <h6>
+                                            <i class="bi bi-hourglass-split me-2"></i>Duração: Consulte Roteiros
+                                        </h6>
+                                        <hr>
+
+                                    </div>
+                                    <div class="row align-items-center w-100 mx-0">
+                                        <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#myModal7">
+                                            Ver mais informacoes
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="myModal7" tabindex="-1" aria-labelledby="myModalLabel7" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="myModalLabel5">Parque Nacional do Itatiaia</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="img/nativus/iron-itatiaia.jpg" class="d-block w-100" alt="Imagem 1">
+                                        <p>
+                                            O Parque Nacional do Itatiaia, localizado no estado do Rio de Janeiro, é o primeiro Parque Nacional do Brasil, estabelecido em junho de 1937. Situado na deslumbrante Serra da Mantiqueira, o parque abriga uma biodiversidade exuberante e um ecossistema incrivelmente rico, proporcionando uma beleza natural única. Com suas montanhas majestosas, cachoeiras deslumbrantes e trilhas desafiadoras, o Itatiaia é um verdadeiro paraíso para os amantes da natureza e entusiastas de atividades ao ar livre. Explore suas trilhas pitorescas, maravilhe-se com a diversidade de flora e fauna, e deixe-se envolver pela atmosfera mágica deste lugar especial. Uma visita ao Parque Nacional do Itatiaia é uma oportunidade imperdível de conectar-se com a natureza e apreciar toda a sua grandiosidade.                                                Recorridos: 
+                                            <p><i class="fa fa-check text-success me-3"></i>Pico Agulhas negras</p>
+                                            <p><i class="fa fa-check text-success me-3"></i>Pedra do Altar</p>
+                                            <p><i class="fa fa-check text-success me-3"></i>Prateleiras</p>
+                                            <p><i class="fa fa-check text-success me-3"></i>Travessia Rancho Caido</p>
+                                            <p><i class="fa fa-check text-success me-3"></i>Travessia Serra Negra</p>
+                                            <p><i class="fa fa-check text-success me-3"></i>Travessia Ruy Braga</p>
+                                            Seja qual for o seu nível de experiência ou preferência, o Parque Nacional do Itatiaia oferece roteiros de aventura para todos os gostos, garantindo momentos inesquecíveis em meio à natureza exuberante da região. Prepare-se para explorar as maravilhas desse lugar e vivenciar emoções intensas em cada passo da sua jornada.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <!-- Serra dos orgaos -->
+                                <div class="card">
+                                    <div class="bg-success text-white text-center">Trekking</div>
+                                    <div class="card__image-holder">
+                                        <img class="card__image" src="img/nativus/petro-tete.jpg" alt="itatiaia" />
+                                    </div>
+                                    <div class="card-title">
+                                        <h6 class="text-center p-0 mt-2"><strong>
+                                            Serra dos Órgãos (RJ)
+                                        </strong></h6>
+                                        <hr>
+                                        <h6>
+                                            <i class="mt-3 fas fa-calendar-alt me-2"></i>Maio a Setembro
+                                        </h6>
+                                        <h6>
+                                            <i class="bi bi-lungs-fill me-2"></i>Nivel: Avançado
+                                        </h6>
+                                        <h6>
+                                            <i class="bi bi-hourglass-split me-2"></i>Duração: Consulte Roteiros
+                                        </h6>
+                                        <hr>
+
+                                    </div>
+                                    <div class="row align-items-center w-100 mx-0">
+                                        <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#myModal8">
+                                            Ver mais informacoes
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="myModal8" tabindex="-1" aria-labelledby="myModalLabel8" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="myModalLabel8">Serra dos Órgãos (RJ)</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="img/nativus/petro-tere.jpg" class="d-block w-100" alt="Imagem 1">
+                                        <p>
+                                            O Parque Nacional da Serra dos Órgãos, localizado no estado do Rio de Janeiro, é uma verdadeira joia natural. Criado em novembro de 1939, o parque possui uma paisagem deslumbrante e uma rica biodiversidade. Com suas imponentes montanhas, formações rochosas únicas e uma vegetação exuberante, a Serra dos Órgãos oferece uma experiência inigualável para os amantes da natureza e entusiastas de atividades ao ar livre. Suas trilhas bem demarcadas levam os visitantes a cenários de tirar o fôlego, como o icônico Dedo de Deus e o mirante da Pedra do Sino, de onde se tem vistas panorâmicas deslumbrantes. Além disso, o parque abriga uma diversidade de fauna e flora, proporcionando um verdadeiro santuário para inúmeras espécies. Com uma infraestrutura bem desenvolvida, o Parque Nacional da Serra dos Órgãos oferece aos visitantes uma experiência completa, com opções de trilhas para diferentes níveis de habilidade, áreas de camping, e uma oportunidade única de se conectar com a natureza em seu estado mais puro. Explore os tesouros naturais da Serra dos Órgãos e deixe-se encantar pela magnificência desse lugar extraordinário.
+                                            <p><i class="fa fa-check text-success me-3"></i>Travessia Petrópolis x Teresópolis</p>
+                                            <p><i class="fa fa-check text-success me-3"></i>Cachoeira Véu de Noiva</p>
+                                            <p><i class="fa fa-check text-success me-3"></i>Circuitos de Escalada</p>
+                                            Seja qual for o seu nível de experiência ou preferência, o Parque Nacional da Serra dos Órgãos oferece roteiros de aventura para todos os gostos, garantindo momentos inesquecíveis em meio à natureza exuberante da região. Prepare-se para explorar as maravilhas desse lugar e vivenciar emoções intensas em cada passo da sua jornada.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <!--Travessia Serra Fina -->
+                                <div class="card">
+                                    <div class="bg-success text-white text-center">Trekking</div>
+                                    <div class="card__image-holder">
+                                        <img class="card__image" src="img/nativus/travessia-da-serra-fina.jpg" alt="serra fina" />
+                                    </div>
+                                    <div class="card-title">
+                                        <h6 class="text-center p-0 mt-2"><strong>
+                                            Travessia da Serra Fina (MG)
+                                        </strong></h6>
+
+                                        <hr>
+                                        <h6>
+                                            <i class="mt-3 fas fa-calendar-alt me-2"></i>Maio a Setembro
+                                        </h6>
+                                        <h6>
+                                            <i class="bi bi-lungs-fill me-2"></i>Nivel: Avançado
+                                        </h6>
+                                        <h6>
+                                            <i class="bi bi-hourglass-split me-2"></i>Duração: 3 a 4 dias
+                                        </h6>
+                                        <hr>
+
+                                    </div>
+                                    <div class="row align-items-center w-100 mx-0">
+                                        <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#myModal10">
+                                            Ver mais informacoes
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="myModal10" tabindex="-1" aria-labelledby="myModalLabel10" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="myModalLabel10">Travessia da Serra Fina</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="img/nativus/travessia-da-serra-fina.jpg" class="d-block w-100" alt="Imagem 1">
+                                        <p>
+                                            A travessia da Serra Fina é considerada um dos desafios mais emblemáticos do montanhismo brasileiro. 
+                                            Localizada na divisa entre os estados de Minas Gerais e São Paulo, essa travessia oferece uma experiência única e deslumbrante aos aventureiros que se aventuram em suas trilhas.
+                                            Com uma extensão de aproximadamente 30 quilômetros, a travessia da Serra Fina percorre uma região de altitudes elevadas, com picos que ultrapassam os 2.400 metros. Durante o percurso, os exploradores são presenteados com paisagens de tirar o fôlego, como vales profundos, montanhas imponentes e uma natureza exuberante.
+                                            No entanto, a travessia da Serra Fina não é para os fracos de espírito. 
+                                            Ela exige um bom condicionamento físico, habilidades em navegação e conhecimento técnico em montanhismo. 
+                                            As trilhas são íngremes, estreitas e apresentam trechos expostos, exigindo cuidado e atenção dos aventureiros.
+                                            Durante a jornada, os participantes têm a oportunidade de conquistar os três principais picos da região: o Pico dos Três Estados, o Pico das Agulhas Negras e o Pico do Capim Amarelo. Cada um desses picos oferece vistas deslumbrantes e a sensação de superação ao alcançar o topo.
+                                            Além das belezas naturais, a travessia da Serra Fina proporciona uma imersão completa na vida selvagem, com a possibilidade de avistar diferentes espécies de animais e explorar uma flora diversificada.                                                </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div> 
                             </div>
 
                             <div class="tab-pane fade" id="v-pills-escalada" role="tabpanel" aria-labelledby="v-pills-escalada-tab">
-                                <div class="col">
-                                    <div class="cards mb-5">
-                                        <div class="card">
-                                            <div class="bg-success text-white text-center">
-                                                Escalada
-                                            </div>
-                                            <div class="card__image-holder">
-                                                <img class="card__image" src="img/nativus/iron-guia-2-red.jpg" alt="Bau" />
-                                            </div>
-                                            <div class="card-title">
+                                <!--Escalada Guiada -->
+                                <div class="card">
+                                    <div class="bg-success text-white text-center">Escalada</div>
+                                    <div class="card__image-holder">
+                                        <img class="card__image" src="img/nativus/iron-guia-2-red.jpg" alt="serra fina" />
+                                    </div>
+                                    <div class="card-title">
+                                        <h6 class="text-center p-0 mt-2"><strong>
+                                            Escalada Guiada
+                                        </strong></h6>
 
-                                                <h5>
-                                                    Escalada Guiada
-                                                </h5>
-                                                <h6>
-                                                    <i class="mt-3 fas fa-calendar-alt me-2"></i>Maio a Setembro
-                                                </h6>
-                                                <h6>
-                                                    <i class="bi bi-lungs-fill me-2"></i>Nivel: Avançado
-                                                </h6>
-                                                <h6>
-                                                    <i class="bi bi-hourglass-split me-2"></i>Duração: Consulte Roteiros
-                                                </h6>
+                                        <hr>
+                                        <h6>
+                                            <i class="mt-3 fas fa-calendar-alt me-2"></i>Maio a Setembro
+                                        </h6>
+                                        <h6>
+                                            <i class="bi bi-lungs-fill me-2"></i>Nivel: Avançado
+                                        </h6>
+                                        <h6>
+                                            <i class="bi bi-hourglass-split me-2"></i>Duração: Consulte Roteiros
+                                        </h6>
+                                        <hr>
+
+                                    </div>
+                                    <div class="row align-items-center w-100 mx-0">
+                                        <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#myModal11">
+                                            Ver mais informacoes
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="myModal11" tabindex="-1" aria-labelledby="myModalLabel11" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="myModalLabel11">Escalada Guiada</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
-                                            <a href="#" class="btn-slider btn-lg btn-circle btn-outline-new-white">
-                                                Mais Detalhes
-                                            </a>
-                                            <div class="card-flap flap1">
-                                                <div class="card-description">
-                                                    A escalada guiada requer a presença de um guia experiente e especializado devido à complexidade das vias e à necessidade de procedimentos específicos. 
-                                                    Na deslumbrante Serra da Mantiqueira, os amantes da escalada encontrarão uma diversidade de vias para todos os gostos, incluindo algumas clássicas que são verdadeiras joias. 
-                                                    Abaixo estão algumas delas:
-                                                    <p><i class="fa fa-check text-success me-3"></i>Cresta com normal(Pedra do Bau - SP)</p>
-                                                    <p><i class="fa fa-check text-success me-3"></i>Elektra(Pedra do Bau - SP)</p>
-                                                    <p><i class="fa fa-check text-success me-3"></i>V de vinganca(Pedra do Bauzinho - SP)</p>
-                                                    <p><i class="fa fa-check text-success me-3"></i>Transbau(Pedra do bau - SP)</p>
-                                                </div>
-                                                <div class="card-flap flap2">
-                                                <div class="card-actions">
-                                                    <a href="#" class="btn-exp">Agende sua aventura</a>
-                                                </div>
-                                                </div>
-                                            </div>
+                                            <div class="modal-body">
+                                                <img src="img/nativus/iron-guia.jpg" class="d-block w-100" alt="Imagem 1">
+                                            <p>
+                                                A escalada guiada requer a presença de um guia experiente e especializado devido à complexidade das vias e à necessidade de procedimentos específicos. 
+                                                Na deslumbrante Serra da Mantiqueira, os amantes da escalada encontrarão uma diversidade de vias para todos os gostos, incluindo algumas clássicas que são verdadeiras joias. 
+                                                Abaixo estão algumas delas:
+                                                <p><i class="fa fa-check text-success me-3"></i>Cresta com normal(Pedra do Bau - SP)</p>
+                                                <p><i class="fa fa-check text-success me-3"></i>Elektra(Pedra do Bau - SP)</p>
+                                                <p><i class="fa fa-check text-success me-3"></i>V de vinganca(Pedra do Bauzinho - SP)</p>
+                                                <p><i class="fa fa-check text-success me-3"></i>Transbau(Pedra do bau - SP)</p>
                                         </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="tab-pane fade" id="v-pills-cursos" role="tabpanel" aria-labelledby="v-pills-cursos-tab">
-                                <div class="col">
-                                    <div class="cards mb-5">
-                                        <div class="card">
-                                            <div class="bg-success text-white text-center">Cursos</div>
-                                            <div class="card__image-holder">
-                                                <img class="card__image" src="img/nativus/curso-iniciantes.jpg" alt="Bau" />
-                                            </div>
-                                            <div class="card-title">
+                                <!-- Iniciantes -->
+                                <div class="card">
+                                    <div class="bg-success text-white text-center">Cursos</div>
+                                    <div class="card__image-holder">
+                                        <img class="card__image" src="img/nativus/curso-iniciantes.jpg" alt="serra fina" />
+                                    </div>
+                                    <div class="card-title">
+                                        <h6 class="text-center p-0 mt-2"><strong>
+                                            Curso iniciante de escalada
+                                        </strong></h6>
+                                        <hr>
+                                        <h6>
+                                            <i class="mt-3 fas fa-calendar-alt me-2"></i>Maio a Setembro
+                                        </h6>
+                                        <h6>
+                                            <i class="bi bi-lungs-fill me-2"></i>Nivel: Iniciante
+                                        </h6>
+                                        <h6>
+                                            <i class="bi bi-hourglass-split me-2"></i>2 dias completos
+                                        </h6>
+                                        <hr>
 
-                                                <h5>
-                                                    Curso iniciante de escalada
-                                                </h5>
-                                                <h6>
-                                                    <i class="mt-3 fas fa-calendar-alt me-2"></i>Maio a Setembro
-                                                </h6>
-                                                <h6>
-                                                    <i class="bi bi-lungs-fill me-2"></i>Nivel: Iniciante
-                                                </h6>
-                                                <h6>
-                                                    <i class="bi bi-hourglass-split me-2"></i>2 dias completos
-                                                </h6>
-                                            </div>
-                                            <a href="#" class="btn-slider btn-lg btn-circle btn-outline-new-white">
-                                                Mais Detalhes
-                                            </a>
-                                            <div class="card-flap flap1">
-                                                <div class="card-description">
-                                                    O curso foi desenvolvido para quem conta com teve pouco ou nenhum contato com a escalada.
-                                                    Sao dois dias de total contato com a natureza e a rocha
-                                                    Um curso que focam em ensinar de forma pratica conhecimentos basicos sobre procedimentos de seguranca, teoria sobre os equipamentos e tecnica de escalada.
-                                                </div>  
-                                                <div class="card-flap flap2">
-                                                <div class="card-actions">
-                                                    <a href="#" class="btn-exp">Agende sua aventura</a>
-                                                </div>
-                                                </div>
-                                            </div>
-                                        </div> 
-
-                                        <div class="card">
-                                            <div class="bg-success text-white text-center">Cursos</div>
-                                            <div class="card__image-holder">
-                                                <img class="card__image" src="img/nativus/yan-iron-red.jpg" alt="Bau" />
-                                            </div>
-                                            <div class="card-title">
-
-                                                <h5>
-                                                    Curso de escalada Guiada
-                                                </h5>
-                                                <h6>
-                                                    <i class="mt-3 fas fa-calendar-alt me-2"></i> Maio a Setembro
-                                                </h6>
-                                                <h6>
-                                                    <i class="bi bi-lungs-fill me-2"></i>Nivel: Intermediario
-                                                </h6>
-                                                <h6>
-                                                    <i class="bi bi-hourglass-split me-2"></i>Duração: 2 dias completos
-                                                </h6>
-                                            </div>
-                                            <a href="#" class="btn-slider btn-lg btn-circle btn-outline-new-white">
-                                                Mais Detalhes
-                                            </a>
-                                            <div class="card-flap flap1">
-                                                <div class="card-description">
-                                                    O curso completo de escalada guiada em rocha, tem duração de dois completos, especialmente projetado para escaladores que desejam aprimorar suas habilidades e adquirir total autonomia em suas escaladas. 
-                                                    Durante o curso, você terá a oportunidade de aprofundar seus conhecimentos técnicos e desenvolver as habilidades necessárias para enfrentar desafios verticais com confiança e segurança.
-                                                    Nosso programa abrange uma ampla gama de tópicos essenciais, incluindo técnicas avançadas de escalada em rocha, uso correto de equipamentos de segurança, ancoragem e fixação de proteções, leitura de vias e planejamento de ascensões. 
-                                                    Além disso, dedicamos uma parte significativa do curso à prática intensiva, permitindo que você aplique imediatamente as técnicas aprendidas em situações reais de escalada.
-                                                    Nossos instrutor Marcelo 'Iron' altamente qualificado e experiente fornecera orientação personalizada e feedback contínuo ao longo do curso, adaptando-se às suas necessidades individuais e desafiando-o a superar seus limites. 
-                                                    Com um enfoque especial na segurança, ética e preservação ambiental, garantimos que você esteja preparado para enfrentar qualquer desafio que encontrar nas rochas.
-                                                    Ao concluir o curso de escalada guiada em rocha, você estará equipado com as habilidades e o conhecimento necessários para planejar e executar suas próprias escaladas, explorando novas vias, enfrentando paredes desafiadoras e desfrutando de uma maior independência em sua prática de escalada.
-                                                    Não importa se você está buscando aprimorar suas habilidades em rocha, expandir seu repertório de vias ou adquirir confiança para explorar locais de escalada remotos, nosso curso de escalada guiada em rocha irá capacitá-lo a alcançar seus objetivos e elevar sua experiência de escalada a um novo nível. 
-                                                    Prepare-se para desafiar seus limites, conquistar novas alturas e mergulhar em uma jornada de aventura vertical inesquecível.
-                                                </div>
-                                                <div class="card-flap flap2">
-                                                <div class="card-actions">
-                                                    <a href="#" class="btn-exp">Agende sua aventura</a>
-                                                </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="card">
-                                            <div class="bg-success text-white text-center">Cursos</div>
-                                            <div class="card__image-holder">
-                                                <img class="card__image" src="img/nativus/iron-mari-red.jpg" alt="Bau" />
-                                            </div>
-                                            <div class="card-title">
-
-                                                <h5>
-                                                    Curso de escalada Móvel
-                                                </h5>
-                                                <h6>
-                                                    <i class="mt-3 fas fa-calendar-alt me-2"></i>Maio a Setembro
-                                                </h6>
-                                                <h6>
-                                                    <i class="bi bi-lungs-fill me-2"></i>Nivel: Avançado
-                                                </h6>
-                                                <h6>
-                                                    <i class="bi bi-hourglass-split me-2"></i>2 dias completos
-                                                </h6>
-                                            </div>
-                                            <a href="#" class="btn-slider btn-lg btn-circle btn-outline-new-white">
-                                                Mais Detalhes
-                                            </a>
-                                            <div class="card-flap flap1">
-                                                <div class="card-description">
-                                                    O curso de  escalada guiada em peças móveis, projetado especificamente para escaladores experientes que desejam expandir seu conjunto de habilidades e adquirir total autonomia ao enfrentar desafios de escalada que envolvem o uso de proteções móveis. Durante o curso, você terá a oportunidade de aprimorar suas técnicas de escalada em peças móveis, aprofundar sua compreensão sobre o uso correto dos equipamentos e aprender os procedimentos essenciais para garantir a segurança e eficácia das proteções.
-                                                    Nossos instrutores altamente qualificados e experientes irão compartilhar seus conhecimentos especializados, fornecendo orientação personalizada e feedback contínuo para ajudá-lo a desenvolver suas habilidades. O curso abordará tópicos importantes, como seleção adequada de proteções móveis, colocação correta das peças, equalização de ancoragens, gerenciamento de cordas e técnicas avançadas para escalada em fissuras e terrenos variados.
-                                                    Durante as sessões práticas, você terá a oportunidade de aplicar as técnicas aprendidas em uma variedade de cenários reais de escalada. O instrutor ira simular situações desafiadoras e oferecer orientação personalizada para que você possa aprimorar suas habilidades de tomada de decisão e aperfeiçoar suas técnicas de escalada em peças móveis.
-                                                    Ao concluir o curso de escalada guiada em peças móveis, você estará preparado para enfrentar com confiança uma ampla variedade de desafios de escalada que exigem o uso de proteções móveis. Você terá adquirido as habilidades e conhecimentos necessários para identificar as melhores opções de proteção em diferentes tipos de rocha, avaliar a qualidade e a segurança das peças móveis existentes, e criar sistemas eficientes de ancoragem e equalização.             
-                                                    Independentemente de você estar planejando escaladas em montanhas, falésias ou paredes rochosas, nosso curso de escalada guiada em peças móveis irá equipá-lo com as habilidades e a confiança necessárias para explorar novas vias e desafiar-se em diferentes tipos de terreno. Prepare-se para ampliar seus horizontes na escalada, dominar as técnicas avançadas de proteção móvel e desfrutar de uma nova dimensão de liberdade e aventura vertical.
-                                                </div>
-                                                <div class="card-flap flap2">
-                                                <div class="card-actions">
-                                                    <a href="#" class="btn-exp">Agende sua aventura</a>
-                                                </div>
-                                                </div>
-                                            </div>
-                                        </div> 
+                                    </div>
+                                    <div class="row align-items-center w-100 mx-0">
+                                        <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#myModal12">
+                                            Ver mais informacoes
+                                        </button>
                                     </div>
                                 </div>
-                            </div>
+                                <div class="modal fade" id="myModal12" tabindex="-1" aria-labelledby="myModalLabel12" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="myModalLabel12">Curso iniciante de escalada</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="img/nativus/curso-iniciantes-3.jpg" class="d-block w-100" alt="Imagem 1">
+                                            <p>
+                                                O curso foi desenvolvido para quem conta com teve pouco ou nenhum contato com a escalada.
+                                                Sao dois dias de total contato com a natureza e a rocha
+                                                Um curso que focam em ensinar de forma pratica conhecimentos basicos sobre procedimentos de seguranca, teoria sobre os equipamentos e tecnica de escalada.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
 
+                                <!-- Guiada -->
+
+                                <div class="card">
+                                    <div class="bg-success text-white text-center">Cursos</div>
+                                    <div class="card__image-holder">
+                                        <img class="card__image" src="img/nativus/yan-iron-red.jpg" alt="serra fina" />
+                                    </div>
+                                    <div class="card-title">
+                                        <h6 class="text-center p-0 mt-2"><strong>
+                                            Curso escalada guiada
+                                        </strong></h6>
+                                        <hr>
+                                        <h6>
+                                            <i class="mt-3 fas fa-calendar-alt me-2"></i> Maio a Setembro
+                                        </h6>
+                                        <h6>
+                                            <i class="bi bi-lungs-fill me-2"></i>Nivel: Intermediario
+                                        </h6>
+                                        <h6>
+                                            <i class="bi bi-hourglass-split me-2"></i>Duração: 2 dias completos
+                                        </h6>
+                                        <hr>
+
+                                    </div>
+                                    <div class="row align-items-center w-100 mx-0">
+                                        <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#myModal13">
+                                            Ver mais informacoes
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="myModal13" tabindex="-1" aria-labelledby="myModalLabel13" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-titlen" id="myModalLabel13"> Curso Escalada Guiada</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="img/nativus/escalada-guiada-2.jpg" class="d-block w-100" alt="Imagem 1">
+                                            <p>
+                                            O curso completo de escalada guiada em rocha, tem duração de dois completos, especialmente projetado para escaladores que desejam aprimorar suas habilidades e adquirir total autonomia em suas escaladas. 
+                                            Durante o curso, você terá a oportunidade de aprofundar seus conhecimentos técnicos e desenvolver as habilidades necessárias para enfrentar desafios verticais com confiança e segurança.
+                                            Nosso programa abrange uma ampla gama de tópicos essenciais, incluindo técnicas avançadas de escalada em rocha, uso correto de equipamentos de segurança, ancoragem e fixação de proteções, leitura de vias e planejamento de ascensões. 
+                                            Além disso, dedicamos uma parte significativa do curso à prática intensiva, permitindo que você aplique imediatamente as técnicas aprendidas em situações reais de escalada.
+                                            Nossos instrutor Marcelo 'Iron' altamente qualificado e experiente fornecera orientação personalizada e feedback contínuo ao longo do curso, adaptando-se às suas necessidades individuais e desafiando-o a superar seus limites. 
+                                            Com um enfoque especial na segurança, ética e preservação ambiental, garantimos que você esteja preparado para enfrentar qualquer desafio que encontrar nas rochas.
+                                            Ao concluir o curso de escalada guiada em rocha, você estará equipado com as habilidades e o conhecimento necessários para planejar e executar suas próprias escaladas, explorando novas vias, enfrentando paredes desafiadoras e desfrutando de uma maior independência em sua prática de escalada.
+                                            Não importa se você está buscando aprimorar suas habilidades em rocha, expandir seu repertório de vias ou adquirir confiança para explorar locais de escalada remotos, nosso curso de escalada guiada em rocha irá capacitá-lo a alcançar seus objetivos e elevar sua experiência de escalada a um novo nível. 
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <!-- Movel -->
+
+                                <div class="card">
+                                    <div class="bg-success text-white text-center">Cursos</div>
+                                    <div class="card__image-holder">
+                                        <img class="card__image" src="img/nativus/yan-iron-movel.jpg" alt="escalada movel" />
+                                    </div>
+                                    <div class="card-title">
+                                        <h6 class="text-center p-0 mt-2"><strong>
+                                            Curso Escalada Móvel
+                                        </strong></h6>
+                                        <hr>
+                                        <h6>
+                                            <i class="mt-3 fas fa-calendar-alt me-2"></i> Maio a Setembro
+                                        </h6>
+                                        <h6>
+                                            <i class="bi bi-lungs-fill me-2"></i>Nivel: Intermediario
+                                        </h6>
+                                        <h6>
+                                            <i class="bi bi-hourglass-split me-2"></i>Duração: 2 dias completos
+                                        </h6>
+                                        <hr>
+
+                                    </div>
+                                    <div class="row align-items-center w-100 mx-0">
+                                        <button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#myModal14">
+                                            Ver mais informacoes
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="myModal14" tabindex="-1" aria-labelledby="myModalLabel14" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-titlen" id="myModalLabel14"> Curso Escalada Móvel</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="img/nativus/iron-mari-red.jpg" class="d-block w-100" alt="Imagem 1">
+                                            <p>
+                                                O curso de  escalada guiada em peças móveis, projetado especificamente para escaladores experientes que desejam expandir seu conjunto de habilidades e adquirir total autonomia ao enfrentar desafios de escalada que envolvem o uso de proteções móveis. Durante o curso, você terá a oportunidade de aprimorar suas técnicas de escalada em peças móveis, aprofundar sua compreensão sobre o uso correto dos equipamentos e aprender os procedimentos essenciais para garantir a segurança e eficácia das proteções.
+                                                Nossos instrutores altamente qualificados e experientes irão compartilhar seus conhecimentos especializados, fornecendo orientação personalizada e feedback contínuo para ajudá-lo a desenvolver suas habilidades. O curso abordará tópicos importantes, como seleção adequada de proteções móveis, colocação correta das peças, equalização de ancoragens, gerenciamento de cordas e técnicas avançadas para escalada em fissuras e terrenos variados.
+                                                Durante as sessões práticas, você terá a oportunidade de aplicar as técnicas aprendidas em uma variedade de cenários reais de escalada. O instrutor ira simular situações desafiadoras e oferecer orientação personalizada para que você possa aprimorar suas habilidades de tomada de decisão e aperfeiçoar suas técnicas de escalada em peças móveis.
+                                                Ao concluir o curso de escalada guiada em peças móveis, você estará preparado para enfrentar com confiança uma ampla variedade de desafios de escalada que exigem o uso de proteções móveis. Você terá adquirido as habilidades e conhecimentos necessários para identificar as melhores opções de proteção em diferentes tipos de rocha, avaliar a qualidade e a segurança das peças móveis existentes, e criar sistemas eficientes de ancoragem e equalização.             
+                                                Independentemente de você estar planejando escaladas em montanhas, falésias ou paredes rochosas, nosso curso de escalada guiada em peças móveis irá equipá-lo com as habilidades e a confiança necessárias para explorar novas vias e desafiar-se em diferentes tipos de terreno. Prepare-se para ampliar seus horizontes na escalada, dominar as técnicas avançadas de proteção móvel e desfrutar de uma nova dimensão de liberdade e aventura vertical.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>           
                         </div>
                     </div>
                 </div>
