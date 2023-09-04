@@ -546,7 +546,7 @@ button:focus{
 
 
 .qt-background-2{
-	background: url(../img/nativus/itatim-toca.jpg) no-repeat;
+	background: url(../img/nativus/itatim-toca.webp) no-repeat;
 	background-size: cover;
 	padding: 100px 0;
 	background-attachment: fixed;
@@ -585,7 +585,7 @@ button:focus{
 
 
 .qt-background-refugio-1{
-	background: url(../img/nativus/iron-lenha.jpg) no-repeat;
+	background: url(../img/nativus/iron-lenha.webp) no-repeat;
 	background-size: cover;
 	padding: 100px 0;
 	background-attachment: fixed;
@@ -830,7 +830,7 @@ margin-bottom: 1rem;
 	padding-bottom: 0px;
 }
 .bg-f{
-	background-image: url("../images/footer-bg.jpg");
+	background-image: url("../images/footer-bg.webp");
 	background-attachment: scroll;
 	background-clip: initial;
 	background-color: rgba(0, 0, 0, 0);
@@ -1205,7 +1205,7 @@ div.card.show div.flap2 {
 
 .page-breadcrumb {
     padding: 250px 0 150px;
-    background: url(../img/nativus/area-estacionamento.jpg) no-repeat;
+    background: url(../img/nativus/area-estacionamento.webp) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: 0 0;
